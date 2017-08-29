@@ -1,0 +1,32 @@
+
+PREFIX jso: <http://jedeschule.de/ontology/ns#>
+select ?u ?l ?a
+from <http://jedeschule.de/Datenextrakt-SN/>
+where {
+?u a jso:Bildungseinrichtung; rdfs:label ?l; jso:address ?a . 
+filter regex(?l, "Stadt Leipzig")
+}
+
+PREFIX jso: <http://jedeschule.de/ontology/ns#>
+select distinct ?cat
+from <http://jedeschule.de/Datenextrakt-SN/>
+where {
+?u a jso:Activity; jso:ag_cat ?cat .
+}
+
+PREFIX jso: <http://jedeschule.de/ontology/ns#>
+select distinct ?id ?name ?l
+from <http://jedeschule.de/Datenextrakt-SN/>
+where {
+?u a jso:Activity; jso:hasId ?id; jso:ag_name ?name;
+jso:ag_cat <http://jedeschule.de/ag_cat/naturwissenschafttechnik> .
+
+?id a jso:Bildungseinrichtung; rdfs:label ?l . 
+filter regex(?l, "Stadt Leipzig")
+} order by ?id
+
+
+SELECT $s $p $o
+from <http://jedeschule.de/Datenextrakt-SN/>
+WHERE { $s $p $o }
+LIMIT 200

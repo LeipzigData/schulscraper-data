@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix jso: <http://jedeschule.de/ontology/ns#> .
+
+<http://jedeschule.de/Datenextrakt-SN/>
+    a owl:Ontology ;
+    rdfs:comment "Extrakt aus der csv-Quelle sachsen.csv" ;
+    rdfs:label "Schultypen in Sachsen" .
+
+<http://jedeschule.de/schooltype/abendgymnasium>
+    a jso:SchoolType ;
+    rdfs:label "Abendgymnasium" .
+
+<http://jedeschule.de/schooltype/abendmittelschule>
+    a jso:SchoolType ;
+    rdfs:label "Abendmittelschule" .
+
+<http://jedeschule.de/schooltype/beruflichesgymnasium>
+    a jso:SchoolType ;
+    rdfs:label "Berufliches Gymnasium" .
+
+<http://jedeschule.de/schooltype/berufsbildendefoerderschule>
+    a jso:SchoolType ;
+    rdfs:label "Berufsbildende Förderschule" .
+
+<http://jedeschule.de/schooltype/berufsfachschule>
+    a jso:SchoolType ;
+    rdfs:label "Berufsfachschule" .
+
+<http://jedeschule.de/schooltype/berufsschule>
+    a jso:SchoolType ;
+    rdfs:label "Berufsschule" .
+
+<http://jedeschule.de/schooltype/bildungszentrumbildungsstaetteimstrafvollzug>
+    a jso:SchoolType ;
+    rdfs:label "Bildungszentrum Bildungsstätte im Strafvollzug" .
+
+<http://jedeschule.de/schooltype/ergaenzungsschule>
+    a jso:SchoolType ;
+    rdfs:label "Ergänzungsschule" .
+
+<http://jedeschule.de/schooltype/fachoberschule>
+    a jso:SchoolType ;
+    rdfs:label "Fachoberschule" .
+
+<http://jedeschule.de/schooltype/fachschule>
+    a jso:SchoolType ;
+    rdfs:label "Fachschule" .
+
+<http://jedeschule.de/schooltype/grundschule>
+    a jso:SchoolType ;
+    rdfs:label "Grundschule" .
+
+<http://jedeschule.de/schooltype/gymnasium>
+    a jso:SchoolType ;
+    rdfs:label "Gymnasium" .
+
+<http://jedeschule.de/schooltype/klinikundkrankenhausschule>
+    a jso:SchoolType ;
+    rdfs:label "Klinik- und Krankenhausschule" .
+
+<http://jedeschule.de/schooltype/kolleg>
+    a jso:SchoolType ;
+    rdfs:label "Kolleg" .
+
+<http://jedeschule.de/schooltype/mittelschule>
+    a jso:SchoolType ;
+    rdfs:label "Mittelschule" .
+
+<http://jedeschule.de/schooltype/schulaufsichtsaechsischebildungsagentursba>
+    a jso:SchoolType ;
+    rdfs:label "Schulaufsicht Sächsische Bildungsagentur (SBA)" .
+
+<http://jedeschule.de/schooltype/schulaufsichtsaechsischesbildungsinstitutsbi>
+    a jso:SchoolType ;
+    rdfs:label "Schulaufsicht Sächsisches Bildungsinstitut (SBI)" .
+
+<http://jedeschule.de/schooltype/schulaufsichtsaechsischesstaatsministeriumfuerkultus>
+    a jso:SchoolType ;
+    rdfs:label "Schulaufsicht Sächsisches Staatsministerium für Kultus" .
+
+<http://jedeschule.de/schooltype/schulaufsichtsonstigebehoerde>
+    a jso:SchoolType ;
+    rdfs:label "Schulaufsicht Sonstige Behörde" .
+
+<http://jedeschule.de/schooltype/schuledeszweitenbildungswegesabendgymnasium>
+    a jso:SchoolType ;
+    rdfs:label "Schule des zweiten Bildungsweges Abendgymnasium" .
+
+<http://jedeschule.de/schooltype/schuledeszweitenbildungswegesabendmittelschule>
+    a jso:SchoolType ;
+    rdfs:label "Schule des zweiten Bildungsweges Abendmittelschule" .
+
+<http://jedeschule.de/schooltype/schuledeszweitenbildungswegeskolleg>
+    a jso:SchoolType ;
+    rdfs:label "Schule des zweiten Bildungsweges Kolleg" .
+
+<http://jedeschule.de/schooltype/schulefuerblindeundsehbehinderte>
+    a jso:SchoolType ;
+    rdfs:label "Schule für Blinde und Sehbehinderte" .
+
+<http://jedeschule.de/schooltype/schulefuererziehungshilfe>
+    a jso:SchoolType ;
+    rdfs:label "Schule für Erziehungshilfe" .
+
+<http://jedeschule.de/schooltype/schulefuergeistigbehinderte>
+    a jso:SchoolType ;
+    rdfs:label "Schule für geistig Behinderte" .
+
+<http://jedeschule.de/schooltype/schulefuerhoergeschaedigte>
+    a jso:SchoolType ;
+    rdfs:label "Schule für Hörgeschädigte" .
+
+<http://jedeschule.de/schooltype/schulefuerkoerperbehinderte>
+    a jso:SchoolType ;
+    rdfs:label "Schule für Körperbehinderte" .
+
+<http://jedeschule.de/schooltype/schulezurlernfoerderung>
+    a jso:SchoolType ;
+    rdfs:label "Schule zur Lernförderung" .
+
+<http://jedeschule.de/schooltype/schulversuchgemeinschaftsschule>
+    a jso:SchoolType ;
+    rdfs:label "Schulversuch Gemeinschaftsschule" .
+
+<http://jedeschule.de/schooltype/sonstigebildungsundbetreuungseinrichtungenberufsschule>
+    a jso:SchoolType ;
+    rdfs:label "Sonstige Bildungs- und Betreuungseinrichtungen Berufsschule" .
+
+<http://jedeschule.de/schooltype/sonstigebildungsundbetreuungseinrichtungenergaenzungsschule>
+    a jso:SchoolType ;
+    rdfs:label "Sonstige Bildungs- und Betreuungseinrichtungen Ergänzungsschule" .
+
+<http://jedeschule.de/schooltype/sonstigebildungsundbetreuungseinrichtungenfachzentrum>
+    a jso:SchoolType ;
+    rdfs:label "Sonstige Bildungs- und Betreuungseinrichtungen Fachzentrum" .
+
+<http://jedeschule.de/schooltype/sonstigebildungsundbetreuungseinrichtungenfoerderpaedagogischeberatungsstelle>
+    a jso:SchoolType ;
+    rdfs:label "Sonstige Bildungs- und Betreuungseinrichtungen Förderpädagogische Beratungsstelle" .
+
+<http://jedeschule.de/schooltype/sonstigebildungsundbetreuungseinrichtungenmedienzentrum>
+    a jso:SchoolType ;
+    rdfs:label "Sonstige Bildungs- und Betreuungseinrichtungen Medienzentrum" .
+
+<http://jedeschule.de/schooltype/sonstigebildungsundbetreuungseinrichtungenschulenmitinternat>
+    a jso:SchoolType ;
+    rdfs:label "Sonstige Bildungs- und Betreuungseinrichtungen Schulen mit Internat" .
+
+<http://jedeschule.de/schooltype/sonstigebildungsundbetreuungseinrichtungensportstaette>
+    a jso:SchoolType ;
+    rdfs:label "Sonstige Bildungs- und Betreuungseinrichtungen Sportstätte" .
+
+<http://jedeschule.de/schooltype/sprachheilschule>
+    a jso:SchoolType ;
+    rdfs:label "Sprachheilschule" .
+
+<http://jedeschule.de/schooltype/weiterbildungsstaettehochschule>
+    a jso:SchoolType ;
+    rdfs:label "Weiterbildungsstätte Hochschule" .
+
+<http://jedeschule.de/schooltype/weiterbildungsstaettesaechsischelandeszentralefuerpolitischebildung>
+    a jso:SchoolType ;
+    rdfs:label "Weiterbildungsstätte Sächsische Landeszentrale für politische Bildung" .
+
