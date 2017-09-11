@@ -1,22 +1,30 @@
 
 PREFIX jso: <http://jedeschule.de/ontology/ns#>
 select ?u ?l ?a
-from <http://jedeschule.de/Datenextrakt-SN/>
+from <http://jedeschule.de/HGG-Datenextrakt/>
 where {
 ?u a jso:Bildungseinrichtung; rdfs:label ?l; jso:address ?a . 
 filter regex(?l, "Stadt Leipzig")
 }
 
 PREFIX jso: <http://jedeschule.de/ontology/ns#>
+select ?u ?l ?o ?s
+from <http://jedeschule.de/HGG-Datenextrakt/>
+where {
+?u a jso:Bildungseinrichtung; rdfs:label ?l; jso:ort ?o; jso:strasse ?s . 
+filter regex(?u, "SN-44")
+}
+
+PREFIX jso: <http://jedeschule.de/ontology/ns#>
 select distinct ?cat
-from <http://jedeschule.de/Datenextrakt-SN/>
+from <http://jedeschule.de/HGG-Datenextrakt/>
 where {
 ?u a jso:Activity; jso:ag_cat ?cat .
 }
 
 PREFIX jso: <http://jedeschule.de/ontology/ns#>
 select distinct ?id ?name ?l
-from <http://jedeschule.de/Datenextrakt-SN/>
+from <http://jedeschule.de/HGG-Datenextrakt/>
 where {
 ?u a jso:Activity; jso:hasId ?id; jso:ag_name ?name;
 jso:ag_cat <http://jedeschule.de/ag_cat/naturwissenschafttechnik> .
@@ -25,8 +33,51 @@ jso:ag_cat <http://jedeschule.de/ag_cat/naturwissenschafttechnik> .
 filter regex(?l, "Stadt Leipzig")
 } order by ?id
 
+--------------------------------------------
+Erzeuge LeipzigerSchulen.ttl
 
-SELECT $s $p $o
-from <http://jedeschule.de/Datenextrakt-SN/>
-WHERE { $s $p $o }
-LIMIT 200
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+construct {
+?u a ld:Schule ; rdfs:label ?l; ld:plz ?p ; ld:address ?la ; ld:strasse ?ls .
+}
+from <http://leipzig-data.de/Data/Schulen/>
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/Strassenverzeichnis/>
+where
+{ ?u a ld:Schule ; rdfs:label ?l; ld:hasAddress ?a  . 
+optional { ?a ld:hasPostCode ?p; rdfs:label ?la ; ld:inStreet ?sl .}
+optional { ?sl rdfs:label ?ls .}
+}
+
+------------------------------------
+Vergleiche beides in lokalem Datastore
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX jso: <http://jedeschule.de/ontology/ns#>
+select distinct ?l ?l1 ?p ?a ?a1 ?u ?u1 ?id 
+from <http://leipzig-data.de/Data/LeipzigerSchulen/>
+from <http://jedeschule.de/HGG-Datenextrakt/>
+where
+{
+  ?u a ld:Schule ; rdfs:label ?l; ld:plz ?p ; ld:address ?a ; ld:strasse ?s .
+  ?u1 a jso:Bildungseinrichtung ; rdfs:label ?l1; jso:plz ?p1 ;
+  jso:address ?a1 ; jso:id ?id .
+filter ((?p=?p1) and regex(?a1, ?s))
+}
+order by ?p
+
+# Kurzversion
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX jso: <http://jedeschule.de/ontology/ns#>
+construct { ?u ld:hasSchulId ?id . } 
+from <http://leipzig-data.de/Data/LeipzigerSchulen/>
+from <http://jedeschule.de/HGG-Datenextrakt/>
+where
+{
+  ?u a ld:Schule ; ld:plz ?p ; ld:strasse ?s .
+  ?u1 a jso:Bildungseinrichtung ; jso:plz ?p1 ;
+  jso:address ?a1 ; jso:id ?id .
+filter ((?p=?p1) and regex(?a1, ?s))
+}
+
+

@@ -6,11 +6,6 @@
     Adapted source of csvToArray from 
     http://stackoverflow.com/questions/17761172/php-csv-string-to-array 
 
-load it into Virtuoso as 
-
-DB.DBA.TTLP_MT (file_to_string_output('/home/graebe/git/LD/schulscraper-data/rdf/Schulen.ttl'),'http://jedeschule.de/Datenextrakt-SN/');
-
-
 */
 
 function TurtleEnvelope() {
@@ -22,7 +17,7 @@ function TurtleEnvelope() {
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix jso: <http://jedeschule.de/ontology/ns#> .
 
-<http://jedeschule.de/Datenextrakt-SN/> a owl:Ontology ;
+<http://jedeschule.de/HGG-Datenextrakt/> a owl:Ontology ;
    rdfs:label "RDF als CSV-Extrakt für Sachsen" ;
    rdfs:comment "Extrakt aus der csv-Quelle sachsen.csv mit dem Skript csv2rdf.php" .
 
@@ -100,6 +95,7 @@ function csvToArray($file) {
         $handle = fopen($file, 'r');
         while (!feof($handle)) {
             $row = fgetcsv($handle, 10240, ',', '"');
+            $row = str_replace(' ',' ',$row);
             if (empty($headers))
                 $headers = $row;
             else if (is_array($row)) {

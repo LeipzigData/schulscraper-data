@@ -1,0 +1,1233 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://leipzig-data.de/Data/LeipzigerSchulen/> a owl:Ontology ;
+   rdfs:label "Leipziger Schulen" ;
+   rdfs:comment "Extrakt aus leipzig-data.de" .
+
+<http://leipzig-data.de/Data/Schule/100-GS>
+    ld:address "Leipzig, Miltitzer Allee 1" ;
+    ld:plz "04207" ;
+    ld:strasse "Miltitzer Allee" ;
+    a ld:Schule ;
+    rdfs:label "100. Schule" .
+
+<http://leipzig-data.de/Data/Schule/120-GS>
+    ld:address "Leipzig, Martin-Herrmann-Straße 1" ;
+    ld:plz "04249" ;
+    ld:strasse "Martin-Herrmann-Straße" ;
+    a ld:Schule ;
+    rdfs:label "120. Schule" .
+
+<http://leipzig-data.de/Data/Schule/125-OS>
+    ld:address "Leipzig, Heinrichstraße 43" ;
+    ld:plz "04317" ;
+    ld:strasse "Heinrichstraße" ;
+    a ld:Schule ;
+    rdfs:label "125. Schule" .
+
+<http://leipzig-data.de/Data/Schule/157-GS>
+    ld:address "Leipzig, Hans-Driesch-Straße 41" ;
+    ld:plz "04179" ;
+    ld:strasse "Hans-Driesch-Straße" ;
+    a ld:Schule ;
+    rdfs:label "157. Schule" .
+
+<http://leipzig-data.de/Data/Schule/16-OS>
+    ld:address "Leipzig, Konradstraße 67" ;
+    ld:plz "04315" ;
+    ld:strasse "Konradstraße" ;
+    a ld:Schule ;
+    rdfs:label "16. Schule" .
+
+<http://leipzig-data.de/Data/Schule/172-GS>
+    ld:address "Leipzig, Prießnitzstraße 19" ;
+    ld:plz "04179" ;
+    ld:strasse "Prießnitzstraße" ;
+    a ld:Schule ;
+    rdfs:label "172. Schule" .
+
+<http://leipzig-data.de/Data/Schule/20-OS>
+    ld:address "Leipzig, Bästleinstraße 14" ;
+    ld:plz "04347" ;
+    ld:strasse "Bästleinstraße" ;
+    a ld:Schule ;
+    rdfs:label "20. Schule" .
+
+<http://leipzig-data.de/Data/Schule/21-GS>
+    ld:address "Leipzig, Stöckelstraße 45" ;
+    ld:plz "04347" ;
+    ld:strasse "Stöckelstraße" ;
+    a ld:Schule ;
+    rdfs:label "21. Schule" .
+
+<http://leipzig-data.de/Data/Schule/24-GS>
+    ld:address "Leipzig, Döllingstraße 25" ;
+    ld:plz "04328" ;
+    ld:strasse "Döllingstraße" ;
+    a ld:Schule ;
+    rdfs:label "24. Schule" .
+
+<http://leipzig-data.de/Data/Schule/3-GS>
+    ld:address "Leipzig, Bernhard-Göring-Straße 107" ;
+    ld:plz "04275" ;
+    ld:strasse "Bernhard-Göring-Straße" ;
+    a ld:Schule ;
+    rdfs:label "3. Schule" .
+
+<http://leipzig-data.de/Data/Schule/31-GS>
+    ld:address "Leipzig, Franzosenallee 21" ;
+    ld:plz "04289" ;
+    ld:strasse "Franzosenallee" ;
+    a ld:Schule ;
+    rdfs:label "31. Schule" .
+
+<http://leipzig-data.de/Data/Schule/33-GS>
+    ld:address "Leipzig, Anhalter Straße 1" ;
+    ld:plz "04129" ;
+    ld:strasse "Anhalter Straße" ;
+    a ld:Schule ;
+    rdfs:label "33. Schule" .
+
+<http://leipzig-data.de/Data/Schule/35-OS>
+    ld:address "Leipzig, Virchowstraße 4" ;
+    ld:plz "04157" ;
+    ld:strasse "Virchowstraße" ;
+    a ld:Schule ;
+    rdfs:label "35. Schule" .
+
+<http://leipzig-data.de/Data/Schule/39-GS>
+    ld:address "Leipzig, Gustav-Kühn-Straße 1" ;
+    ld:plz "04159" ;
+    ld:strasse "Gustav-Kühn-Straße" ;
+    a ld:Schule ;
+    rdfs:label "39. Schule" .
+
+<http://leipzig-data.de/Data/Schule/46-GS>
+    ld:address "Leipzig, Saalfelder Straße 29" ;
+    ld:plz "04179" ;
+    ld:strasse "Saalfelder Straße" ;
+    a ld:Schule ;
+    rdfs:label "46. Schule" .
+
+<http://leipzig-data.de/Data/Schule/5-GS>
+    ld:address "Leipzig, Eitingonstraße 5" ;
+    ld:plz "04105" ;
+    ld:strasse "Eitingonstraße" ;
+    a ld:Schule ;
+    rdfs:label "Schule 5 im Stadtbezirk Mitte" .
+
+<http://leipzig-data.de/Data/Schule/56-OS>
+    ld:address "Leipzig, Dieskaustraße 213" ;
+    ld:plz "04249" ;
+    ld:strasse "Dieskaustraße" ;
+    a ld:Schule ;
+    rdfs:label "56. Schule" .
+
+<http://leipzig-data.de/Data/Schule/60-GS>
+    ld:address "Leipzig, Seumestraße 93" ;
+    ld:plz "04249" ;
+    ld:strasse "Seumestraße" ;
+    a ld:Schule ;
+    rdfs:label "60. Schule" .
+
+<http://leipzig-data.de/Data/Schule/66-GS>
+    ld:address "Leipzig, Rosenowstraße 56" ;
+    ld:plz "04357" ;
+    ld:strasse "Rosenowstraße" ;
+    a ld:Schule ;
+    rdfs:label "66. Schule" .
+
+<http://leipzig-data.de/Data/Schule/68-OS>
+    ld:address "Leipzig, Breitenfelder Straße 19" ;
+    ld:plz "04155" ;
+    ld:strasse "Breitenfelder Straße" ;
+    a ld:Schule ;
+    rdfs:label "68. Schule" .
+
+<http://leipzig-data.de/Data/Schule/74-GS>
+    ld:address "Leipzig, Friedrich-Dittes-Straße 23" ;
+    ld:plz "04318" ;
+    ld:strasse "Friedrich-Dittes-Straße" ;
+    a ld:Schule ;
+    rdfs:label "74. Schule" .
+
+<http://leipzig-data.de/Data/Schule/77-GS>
+    ld:address "Leipzig, Riebeckstraße 50" ;
+    ld:plz "04317" ;
+    ld:strasse "Riebeckstraße" ;
+    a ld:Schule ;
+    rdfs:label "77. Schule" .
+
+<http://leipzig-data.de/Data/Schule/78-GS>
+    ld:address "Leipzig, Binzer Straße 14" ;
+    ld:plz "04207" ;
+    ld:strasse "Binzer Straße" ;
+    a ld:Schule ;
+    rdfs:label "78. Schule" .
+
+<http://leipzig-data.de/Data/Schule/8-GS>
+    ld:address "Leipzig, Wincklerstraße 3" ;
+    ld:plz "04279" ;
+    ld:strasse "Wincklerstraße" ;
+    a ld:Schule ;
+    rdfs:label "8. Schule" .
+
+<http://leipzig-data.de/Data/Schule/84-OS>
+    ld:address "Leipzig, Stuttgarter Allee 5" ;
+    ld:plz "04209" ;
+    ld:strasse "Stuttgarter Allee" ;
+    a ld:Schule ;
+    rdfs:label "84. Schule" .
+
+<http://leipzig-data.de/Data/Schule/85-GS>
+    ld:address "Leipzig, Stuttgarter Allee 3" ;
+    ld:plz "04209" ;
+    ld:strasse "Stuttgarter Allee" ;
+    a ld:Schule ;
+    rdfs:label "85. Schule" .
+
+<http://leipzig-data.de/Data/Schule/9-GS>
+    ld:address "Leipzig, Gersterstraße 74" ;
+    ld:plz "04279" ;
+    ld:strasse "Gersterstraße" ;
+    a ld:Schule ;
+    rdfs:label "9. Schule" .
+
+<http://leipzig-data.de/Data/Schule/90-GS>
+    ld:address "Leipzig, Garskestraße 21" ;
+    ld:plz "04205" ;
+    ld:strasse "Garskestraße" ;
+    a ld:Schule ;
+    rdfs:label "90. Schule" .
+
+<http://leipzig-data.de/Data/Schule/91-GS>
+    ld:address "Leipzig, Uranusstraße 1" ;
+    ld:plz "04205" ;
+    ld:strasse "Uranusstraße" ;
+    a ld:Schule ;
+    rdfs:label "91. Schule" .
+
+<http://leipzig-data.de/Data/Schule/94-OS>
+    ld:address "Leipzig, Miltitzer Weg 3" ;
+    ld:plz "04205" ;
+    ld:strasse "Miltitzer Weg" ;
+    a ld:Schule ;
+    rdfs:label "94. Schule" .
+
+<http://leipzig-data.de/Data/Schule/A-Kaestner-GS>
+    ld:address "Leipzig, Gartenwinkel 30" ;
+    ld:plz "04158" ;
+    ld:strasse "Gartenwinkel" ;
+    a ld:Schule ;
+    rdfs:label "Alfred-Kästner-Schule" .
+
+<http://leipzig-data.de/Data/Schule/AHF-GS>
+    ld:address "Leipzig, Puschstraße 9" ;
+    ld:plz "04103" ;
+    ld:strasse "Puschstraße" ;
+    a ld:Schule ;
+    rdfs:label "August-Hermann-Francke Grundschule" .
+
+<http://leipzig-data.de/Data/Schule/AM-Bach-GS>
+    ld:address "Leipzig, Manetstraße 8" ;
+    ld:plz "04109" ;
+    ld:strasse "Manetstraße" ;
+    a ld:Schule ;
+    rdfs:label "Anna-Magdalena-Bach-Schule" .
+
+<http://leipzig-data.de/Data/Schule/AWO-Berufsschule>
+    ld:address "Leipzig, Ludwig-Hupfeld-Straße 16" ;
+    ld:plz "04178" ;
+    ld:strasse "Ludwig-Hupfeld-Straße" ;
+    a ld:Schule ;
+    rdfs:label "AWO SPI Soziale Stadt und Land Entwicklungsgesellschaft mbH" .
+
+<http://leipzig-data.de/Data/Schule/Adler-Schule>
+    ld:address "Leipzig, Antonienstraße 24" ;
+    ld:plz "04229" ;
+    ld:strasse "Antonienstraße" ;
+    a ld:Schule ;
+    rdfs:label "Oberschule am Adler" .
+
+<http://leipzig-data.de/Data/Schule/AkademiefuerKreativitaetspaedagogik>
+    ld:address "Leipzig, Braunstraße 18" ;
+    ld:plz "04347" ;
+    ld:strasse "Braunstraße" ;
+    a ld:Schule ;
+    rdfs:label "Akademie für Kreativitätspädagogik Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/AktiveSchule-GS>
+    ld:address "Leipzig, Eisenacher Straße 40" ;
+    ld:plz "04155" ;
+    ld:strasse "Eisenacher Straße" ;
+    a ld:Schule ;
+    rdfs:label "Aktive Schule Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Andersen-GS>
+    ld:address "Leipzig, Louis-Fürnberg-Straße 2" ;
+    ld:plz "04318" ;
+    ld:strasse "Louis-Fürnberg-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Hans-Christian-Andersen-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Arnold-GS>
+    ld:address "Leipzig, Gaswerksweg 1" ;
+    ld:plz "04319" ;
+    ld:strasse "Gaswerksweg" ;
+    a ld:Schule ;
+    rdfs:label "Christoph-Arnold-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Arwed-Rossbach-Schule>
+    ld:address "Leipzig, Am kleinen Feld 3" ;
+    ld:plz "04205" ;
+    ld:strasse "Am kleinen Feld" ;
+    a ld:Schule ;
+    rdfs:label "Arwed-Rossbach-Schule - Berufliches Schulzentrum der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft>
+    ld:address "Leipzig, Lützner Straße 93" ;
+    ld:plz "04177" ;
+    ld:strasse "Lützner Straße" ;
+    a ld:Schule ;
+    rdfs:label "Augsburger Lehmbaugesellschaft Leipzig gGmbH in Leipzig e.V." .
+
+<http://leipzig-data.de/Data/Schule/Auguste-GS>
+    ld:address "Leipzig, Grüne Gasse 21B" ;
+    ld:plz "04318" ;
+    ld:strasse "Grüne Gasse" ;
+    a ld:Schule ;
+    rdfs:label "Grundschule Auguste" .
+
+<http://leipzig-data.de/Data/Schule/Auwald-GS>
+    ld:address "Leipzig, Rödelstraße 6" ;
+    ld:plz "04229" ;
+    ld:strasse "Rödelstraße" ;
+    a ld:Schule ;
+    rdfs:label "Schule am Auwald" .
+
+<http://leipzig-data.de/Data/Schule/BIP-Schule>
+    ld:address "Leipzig, Torgauer Straße 114" ;
+    ld:plz "04347" ;
+    ld:strasse "Torgauer Straße" ;
+    a ld:Schule ;
+    rdfs:label "BIP-Kreativitätsgrundschule und -gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/BSZ-Robert-Blum>
+    ld:address "Leipzig, Rosenowstraße 60" ;
+    ld:plz "04357" ;
+    ld:strasse "Rosenowstraße" ;
+    a ld:Schule ;
+    rdfs:label "Berufliches Schulzentrum 12 \"Robert Blum\" der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/BSZ.LeipzigerLand>
+    a ld:Schule ;
+    rdfs:label "Berufliches Schulzentrum Leipziger Land" .
+
+<http://leipzig-data.de/Data/Schule/BSZ1>
+    ld:address "Leipzig, Crednerstraße 1" ;
+    ld:plz "04289" ;
+    ld:strasse "Crednerstraße" ;
+    a ld:Schule ;
+    rdfs:label "Berufliches Schulzentrum 1 der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/BSZ7>
+    ld:address "Leipzig, An der Querbreite 8" ;
+    ld:plz "04129" ;
+    ld:strasse "An der Querbreite" ;
+    a ld:Schule ;
+    rdfs:label "Berufliches Schulzentrum 7 der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/BWM-Berufsschule>
+    ld:address "Leipzig, Naumburger Straße 26A" ;
+    ld:plz "04229" ;
+    ld:strasse "Naumburger Straße" ;
+    a ld:Schule ;
+    rdfs:label "BWM GmbH" .
+
+<http://leipzig-data.de/Data/Schule/Bebel-GS>
+    ld:address "Leipzig, Husemannstraße 2" ;
+    ld:plz "04315" ;
+    ld:strasse "Husemannstraße" ;
+    a ld:Schule ;
+    rdfs:label "August-Bebel-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule>
+    ld:address "Leipzig, Comeniusstraße 17" ;
+    ld:plz "04315" ;
+    ld:strasse "Comeniusstraße" ;
+    a ld:Schule ;
+    rdfs:label "Bernd-Blindow-Schulen Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Berufsbildungswerk-Hoer-Sprachgeschaedigte>
+    ld:address "Leipzig, Knautnaundorfer Straße 4" ;
+    ld:plz "04249" ;
+    ld:strasse "Knautnaundorfer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Berufsbildungswerk Leipzig für Hör- und Sprachgeschädigte" .
+
+<http://leipzig-data.de/Data/Schule/Berufsschule-MKB-Verein>
+    ld:address "Leipzig, Geithainer Straße 7" ;
+    ld:plz "04328" ;
+    ld:strasse "Geithainer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Verein für Motivation, Komm. und berufliche Bildung e. V." .
+
+<http://leipzig-data.de/Data/Schule/Berufsschule-St.ElisabethKrankenhaus>
+    ld:address "Leipzig, Biedermannstraße 84" ;
+    ld:plz "04277" ;
+    ld:strasse "Biedermannstraße" ;
+    a ld:Schule ;
+    rdfs:label "St. Elisabeth Krankenhaus Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Berufsschule-St.GeorgKlinikum>
+    ld:address "Leipzig, Delitzscher Straße 141" ;
+    ld:plz "04129" ;
+    ld:strasse "Delitzscher Straße" ;
+    a ld:Schule ;
+    rdfs:label "St. Georg Klinikum" .
+
+<http://leipzig-data.de/Data/Schule/Biedermann-Schule>
+    ld:address "Leipzig, Garskestraße 19" ;
+    ld:plz "04205" ;
+    ld:strasse "Garskestraße" ;
+    a ld:Schule ;
+    rdfs:label "Kurt-Biedermann-Schule - Förderzentrum für Erziehungshilfe der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/BildungsakademieDresden>
+    ld:address "Leipzig, Hohe Straße 9" ;
+    ld:plz "04107" ;
+    ld:strasse "Hohe Straße" ;
+    a ld:Schule ;
+    rdfs:label "Bildungsakademie Dresden" .
+
+<http://leipzig-data.de/Data/Schule/BildungszentrumfuerGesundheitsberufe>
+    ld:address "Leipzig, Stötteritzer Straße 28" ;
+    ld:plz "04317" ;
+    ld:strasse "Stötteritzer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Bildungszentrum für Gesundheitsberufe Leipzig GmbH" .
+
+<http://leipzig-data.de/Data/Schule/BoehlitzEhrenberg-GS>
+    ld:address "Leipzig, Heinrich-Heine-Straße 64" ;
+    ld:plz "04178" ;
+    ld:strasse "Heinrich-Heine-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Schule Böhlitz-Ehrenberg" .
+
+<http://leipzig-data.de/Data/Schule/Brockhaus-Gym>
+    ld:address "Leipzig, Kieler Straße 72B" ;
+    ld:plz "04357" ;
+    ld:strasse "Kieler Straße" ;
+    a ld:Schule ;
+    rdfs:label "Friedrich-Arnold-Brockhaus-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Busch-GS>
+    ld:address "Leipzig, Heinrichstraße 43" ;
+    ld:plz "04317" ;
+    ld:strasse "Heinrichstraße" ;
+    a ld:Schule ;
+    rdfs:label "Wilhelm-Busch-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Connewitz-GS>
+    ld:address "Leipzig, Zwenkauer Straße 35" ;
+    ld:plz "04277" ;
+    ld:strasse "Zwenkauer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Schule Connewitz" .
+
+<http://leipzig-data.de/Data/Schule/DPFA-Berufsschule>
+    ld:address "Leipzig, Raschwitzer Straße 15" ;
+    ld:plz "04279" ;
+    ld:strasse "Raschwitzer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Deutsche Private Finanzakademie (DPFA) GmbH Sachsen" .
+
+<http://leipzig-data.de/Data/Schule/Designschule>
+    ld:address "Leipzig, Bauhofstraße 3" ;
+    ld:plz "04103" ;
+    ld:strasse "Bauhofstraße" ;
+    a ld:Schule ;
+    rdfs:label "Designschule 1.0 und Designschule 2.0 GmbH" .
+
+<http://leipzig-data.de/Data/Schule/DeutschesErwachsenenBildungswerk>
+    ld:address "Leipzig, Industriestraße 85" ;
+    ld:plz "04229" ;
+    ld:strasse "Industriestraße" ;
+    a ld:Schule ;
+    rdfs:label "Deutsches Erwachsenen Bildungswerk" .
+
+<http://leipzig-data.de/Data/Schule/Diakonissenkrankenhaus-Berufsschule>
+    ld:address "Leipzig, Georg-Schwarz-Straße 49" ;
+    ld:plz "04177" ;
+    ld:strasse "Georg-Schwarz-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Ev. Diakonissenkrankenhaus Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Diesterweg-Lernfoerderschule>
+    a ld:Schule ;
+    rdfs:label "Adolph-Diesterweg-Schule - Schule zur Lernförderung der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/E-Kaestner-GS>
+    ld:address "Leipzig, Erfurter Straße 9" ;
+    ld:plz "04155" ;
+    ld:strasse "Erfurter Straße" ;
+    a ld:Schule ;
+    rdfs:label "Erich Kästner-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Engelsdorf-Gym>
+    ld:address "Leipzig, Arthur-Winkler-Straße 6" ;
+    ld:plz "04319" ;
+    ld:strasse "Arthur-Winkler-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Gymnasium Engelsdorf" .
+
+<http://leipzig-data.de/Data/Schule/ErnstPinkert-GS>
+    ld:address "Leipzig, Martinstraße 7" ;
+    ld:plz "04318" ;
+    ld:strasse "Martinstraße" ;
+    a ld:Schule ;
+    rdfs:label "Ernst-Pinkert-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Euro-Schulen>
+    ld:address "Leipzig, Rosa-Luxemburg-Straße 23" ;
+    ld:plz "04103" ;
+    ld:strasse "Rosa-Luxemburg-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Euro-Schulen gGmbH" .
+
+<http://leipzig-data.de/Data/Schule/EuropaeischesBildungswerkBerufundGesellschaft>
+    ld:address "Leipzig, Hohmannstraße 7" ;
+    ld:plz "04129" ;
+    ld:strasse "Hohmannstraße" ;
+    a ld:Schule ;
+    rdfs:label "Europäisches Bildungswerk für Beruf und Gesellschaft e.V." .
+
+<http://leipzig-data.de/Data/Schule/EvangelischesSchulzentrum>
+    ld:address "Leipzig, Schletterstraße 7" ;
+    ld:plz "04107" ;
+    ld:strasse "Schletterstraße" ;
+    a ld:Schule ;
+    rdfs:label "Evangelisches Schulzentrum" .
+
+<http://leipzig-data.de/Data/Schule/Filatow-Schule>
+    ld:address "Leipzig, Am Kirschberg 49" ;
+    ld:plz "04209" ;
+    ld:strasse "Am Kirschberg" ;
+    a ld:Schule ;
+    rdfs:label "Wladimir-Filatow-Schule - Schule für Blinde und Sehbehinderte, Förderzentrum der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Flossplatz-GS>
+    ld:address "Leipzig, Hohe Straße 45" ;
+    ld:plz "04107" ;
+    ld:strasse "Hohe Straße" ;
+    a ld:Schule ;
+    rdfs:label "Schule am Floßplatz" .
+
+<http://leipzig-data.de/Data/Schule/ForumThomanum-GS>
+    ld:address "Leipzig, Jörgen-Schmidtchen-Weg 8" ;
+    ld:plz "04157" ;
+    ld:strasse "Jörgen-Schmidtchen-Weg" ;
+    a ld:Schule ;
+    rdfs:label "Grundschule forum thomanum" .
+
+<http://leipzig-data.de/Data/Schule/FreieSchule>
+    ld:address "Leipzig, Alte Salzstraße 67" ;
+    ld:plz "04209" ;
+    ld:strasse "Alte Salzstraße" ;
+    a ld:Schule ;
+    rdfs:label "Freie Schule Leipzig e.V." .
+
+<http://leipzig-data.de/Data/Schule/FreieWaldorfschule>
+    ld:address "Leipzig, Berthastraße 15" ;
+    ld:plz "04357" ;
+    ld:strasse "Berthastraße" ;
+    a ld:Schule ;
+    rdfs:label "Freie Waldorfschule Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Froebel-GS>
+    ld:address "Leipzig, Mannheimer Straße 128C" ;
+    ld:plz "04209" ;
+    ld:strasse "Mannheimer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Friedrich-Fröbel-Schule" .
+
+<http://leipzig-data.de/Data/Schule/GBS-Berufsschule>
+    ld:address "Leipzig, Mahlmannstraße 1" ;
+    ld:plz "04107" ;
+    ld:strasse "Mahlmannstraße" ;
+    a ld:Schule ;
+    rdfs:label "GBS - gGmbH für technische und kaufmännische berufsbildende Schulen Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/GS-Marienbrunn>
+    ld:address "Leipzig, An der Märchenwiese 49" ;
+    ld:plz "04277" ;
+    ld:strasse "An der Märchenwiese" ;
+    a ld:Schule ;
+    rdfs:label "Marienbrunner Schule" .
+
+<http://leipzig-data.de/Data/Schule/GS-OS>
+    ld:address "Leipzig, Georg-Schwarz-Straße 113" ;
+    ld:plz "04179" ;
+    ld:strasse "Georg-Schwarz-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Oberschule Georg-Schwarz-Straße" .
+
+<http://leipzig-data.de/Data/Schule/Georg-Schumann-OS>
+    ld:address "Leipzig, Glockenstraße 6" ;
+    ld:plz "04103" ;
+    ld:strasse "Glockenstraße" ;
+    a ld:Schule ;
+    rdfs:label "Georg-Schumann-Oberschule" .
+
+<http://leipzig-data.de/Data/Schule/Gietzelt-Lernfoerderschule>
+    ld:address "Leipzig, Kantatenweg 40" ;
+    ld:plz "04229" ;
+    ld:strasse "Kantatenweg" ;
+    a ld:Schule ;
+    rdfs:label "Fritz-Gietzelt-Schule - Schule zur Lernförderung der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Goethe-Gym>
+    ld:address "Leipzig, Gorkistraße 25" ;
+    ld:plz "04347" ;
+    ld:strasse "Gorkistraße" ;
+    a ld:Schule ;
+    rdfs:label "Goethe-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Gohlis-OS>
+    ld:address "Leipzig, Lützowstraße 8" ;
+    ld:plz "04155" ;
+    ld:strasse "Lützowstraße" ;
+    a ld:Schule ;
+    rdfs:label "Freie Oberschule Gohlis" .
+
+<http://leipzig-data.de/Data/Schule/Grimm-GS>
+    ld:address "Leipzig, Goldsternstraße 23" ;
+    ld:plz "04329" ;
+    ld:strasse "Goldsternstraße" ;
+    a ld:Schule ;
+    rdfs:label "Brüder-Grimm-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Gundorf-GS>
+    ld:address "Leipzig, Leipziger Straße 210" ;
+    ld:plz "04178" ;
+    ld:strasse "Leipziger Straße" ;
+    a ld:Schule ;
+    rdfs:label "Schule Gundorf" .
+
+<http://leipzig-data.de/Data/Schule/Gutenberg-Schule>
+    ld:address "Leipzig, Gutenbergplatz 4" ;
+    ld:plz "04103" ;
+    ld:strasse "Gutenbergplatz" ;
+    a ld:Schule ;
+    rdfs:label "Gutenbergschule - Berufliches Schulzentrum der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Hauff-GS>
+    ld:address "Leipzig, Diderotstraße 37" ;
+    ld:plz "04159" ;
+    ld:strasse "Diderotstraße" ;
+    a ld:Schule ;
+    rdfs:label "Wilhelm-Hauff-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Heimerer-Berufsschule>
+    ld:address "Leipzig, Hohmannstraße 7B" ;
+    ld:plz "04129" ;
+    ld:strasse "Hohmannstraße" ;
+    a ld:Schule ;
+    rdfs:label "Berufsbildungsinstitut und Sozialpflegeschulen Heimerer GmbH" .
+
+<http://leipzig-data.de/Data/Schule/Heisenberg-Gym>
+    ld:address "Leipzig, Renftstraße 3" ;
+    ld:plz "04159" ;
+    ld:strasse "Renftstraße" ;
+    a ld:Schule ;
+    rdfs:label "Werner-Heisenberg-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Helmholtz-OS>
+    ld:address "Leipzig, Helmholtzstraße 6" ;
+    ld:plz "04177" ;
+    ld:strasse "Helmholtzstraße" ;
+    a ld:Schule ;
+    rdfs:label "Helmholtz-Oberschule" .
+
+<http://leipzig-data.de/Data/Schule/Henriette-Goldschmidt-Schule>
+    ld:address "Leipzig, Goldschmidtstraße 20" ;
+    ld:plz "04103" ;
+    ld:strasse "Goldschmidtstraße" ;
+    a ld:Schule ;
+    rdfs:label "Henriette-Goldschmidt-Schule - Berufliches Schulzentrum der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Hertz-Gym>
+    ld:address "Leipzig, Dachsstraße 5" ;
+    ld:plz "04329" ;
+    ld:strasse "Dachsstraße" ;
+    a ld:Schule ;
+    rdfs:label "Gustav-Hertz-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Holzhausen-GS>
+    ld:address "Leipzig, Stötteritzer Landstraße 21" ;
+    ld:plz "04288" ;
+    ld:strasse "Stötteritzer Landstraße" ;
+    a ld:Schule ;
+    rdfs:label "Schule Holzhausen" .
+
+<http://leipzig-data.de/Data/Schule/Humana-Berufsschule>
+    ld:address "Leipzig, Comeniusstraße 17" ;
+    ld:plz "04315" ;
+    ld:strasse "Comeniusstraße" ;
+    a ld:Schule ;
+    rdfs:label "HUMANA gGmbH Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Humboldt-Gym>
+    ld:address "Leipzig, Möbiusstraße 8" ;
+    ld:plz "04317" ;
+    ld:strasse "Möbiusstraße" ;
+    a ld:Schule ;
+    rdfs:label "Humboldt-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/IB.Berufsschule>
+    ld:address "Leipzig, Grassistraße 12" ;
+    ld:plz "04107" ;
+    ld:strasse "Grassistraße" ;
+    a ld:Schule ;
+    rdfs:label "IB Gesellschaft für interdisziplinäre Studien mbH" .
+
+<http://leipzig-data.de/Data/Schule/Johanniter-Berufsschule>
+    ld:address "Leipzig, Witzgallstraße 20" ;
+    ld:plz "04317" ;
+    ld:strasse "Witzgallstraße" ;
+    a ld:Schule ;
+    rdfs:label "Johanniter-Unfall-Hilfe e. V." .
+
+<http://leipzig-data.de/Data/Schule/Kant-Gym>
+    ld:address "Leipzig, Scharnhorststraße 15" ;
+    ld:plz "04275" ;
+    ld:strasse "Scharnhorststraße" ;
+    a ld:Schule ;
+    rdfs:label "Immanuel-Kant-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Karl-Heine-Schule>
+    ld:address "Leipzig, Merseburger Straße 56" ;
+    ld:plz "04177" ;
+    ld:strasse "Merseburger Straße" ;
+    a ld:Schule ;
+    rdfs:label "Karl-Heine-Schule - Berufliches Schulzentrum der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Kepler-Gym>
+    ld:address "Leipzig, Dieskaustraße 76" ;
+    ld:plz "04229" ;
+    ld:strasse "Dieskaustraße" ;
+    a ld:Schule ;
+    rdfs:label "Johannes-Kepler-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Klinger-Gym>
+    ld:address "Leipzig, Miltitzer Weg 4" ;
+    ld:plz "04205" ;
+    ld:strasse "Miltitzer Weg" ;
+    a ld:Schule ;
+    rdfs:label "Max-Klinger-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Koerner-GS>
+    ld:address "Leipzig, Schlehenweg 32" ;
+    ld:plz "04329" ;
+    ld:strasse "Schlehenweg" ;
+    a ld:Schule ;
+    rdfs:label "Theodor-Körner-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Kollwitz-Schule>
+    ld:address "Leipzig, Karl-Vogel-Straße 17" ;
+    ld:plz "04318" ;
+    ld:strasse "Karl-Vogel-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Käthe-Kollwitz-Schule - Förderzentrum und Sprachheilschule der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Kroch-GS>
+    ld:address "Leipzig, Jörgen-Schmidtchen-Weg 8" ;
+    ld:plz "04157" ;
+    ld:strasse "Jörgen-Schmidtchen-Weg" ;
+    a ld:Schule ;
+    rdfs:label "Hans-Kroch-Schule" .
+
+<http://leipzig-data.de/Data/Schule/KulturhafenamRiverboat>
+    a ld:Schule ;
+    rdfs:label "Kulturhafen am Riverboat" .
+
+<http://leipzig-data.de/Data/Schule/Landesschule-Hoergeschaedigte>
+    ld:address "Leipzig, Karl-Siegismund-Straße 2" ;
+    ld:plz "04317" ;
+    ld:strasse "Karl-Siegismund-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Sächsische Landesschule für Hörgeschädigte Leipzig - Förderzentrum Samuel Heinicke" .
+
+<http://leipzig-data.de/Data/Schule/Leibniz-Gym>
+    ld:address "Leipzig, Nordplatz 13" ;
+    ld:plz "04105" ;
+    ld:strasse "Nordplatz" ;
+    a ld:Schule ;
+    rdfs:label "Leibnizschule" .
+
+<http://leipzig-data.de/Data/Schule/Leibnizeum>
+    ld:address "Leipzig, Theodor-Heuss-Straße 30" ;
+    ld:plz "04328" ;
+    ld:strasse "Theodor-Heuss-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Leibnizeum Aus- und Weiterbildung Dr. Gröbke" .
+
+<http://leipzig-data.de/Data/Schule/LeipzigInternationalSchool>
+    ld:address "Leipzig, Könneritzstraße 47" ;
+    ld:plz "04229" ;
+    ld:strasse "Könneritzstraße" ;
+    a ld:Schule ;
+    rdfs:label "Leipzig International School e.V." .
+
+<http://leipzig-data.de/Data/Schule/Lene-Voigt-OS>
+    ld:address "Leipzig, Willi-Bredel-Straße 11" ;
+    ld:plz "04279" ;
+    ld:strasse "Willi-Bredel-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Lene-Voigt-Oberschule" .
+
+<http://leipzig-data.de/Data/Schule/Lernfoerderschule-Engelsdorf>
+    ld:address "Leipzig, Riesaer Straße 177" ;
+    ld:plz "04319" ;
+    ld:strasse "Riesaer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Schule Engelsdorf - Schule zur Lernförderung der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Lernfoerderschule-Gruenau>
+    ld:address "Leipzig, Miltitzer Weg 1" ;
+    ld:plz "04205" ;
+    ld:strasse "Miltitzer Weg" ;
+    a ld:Schule ;
+    rdfs:label "Schule Grünau - Schule zur Lernförderung der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Lernfoerderschule-Schloss-Schoenefeld>
+    ld:address "Leipzig, Zeumerstraße 1" ;
+    ld:plz "04347" ;
+    ld:strasse "Zeumerstraße" ;
+    a ld:Schule ;
+    rdfs:label "Schule für geistig Behinderte Schloss Schönefeld e. V." .
+
+<http://leipzig-data.de/Data/Schule/Lessing-GS>
+    ld:address "Leipzig, Lessingstraße 27" ;
+    ld:plz "04109" ;
+    ld:strasse "Lessingstraße" ;
+    a ld:Schule ;
+    rdfs:label "Lessingschule" .
+
+<http://leipzig-data.de/Data/Schule/Liebertwolkwitz-GS>
+    ld:address "Leipzig, Am Angerteich 2" ;
+    ld:plz "04288" ;
+    ld:strasse "Am Angerteich" ;
+    a ld:Schule ;
+    rdfs:label "Schule Liebertwolkwitz" .
+
+<http://leipzig-data.de/Data/Schule/Liebknecht-GS>
+    ld:address "Leipzig, Heinrich-Mann-Straße 1" ;
+    ld:plz "04157" ;
+    ld:strasse "Heinrich-Mann-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Karl-Liebknecht-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Lindenhofschule>
+    a ld:Schule ;
+    rdfs:label "Lindenhofschule - Schule für geistig Behinderte der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Lindgren-GS>
+    ld:address "Leipzig, Volksgartenstraße 16" ;
+    ld:plz "04347" ;
+    ld:strasse "Volksgartenstraße" ;
+    a ld:Schule ;
+    rdfs:label "Astrid-Lindgren-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Linne-GS>
+    ld:address "Leipzig, Delitzscher Straße 110" ;
+    ld:plz "04129" ;
+    ld:strasse "Delitzscher Straße" ;
+    a ld:Schule ;
+    rdfs:label "Carl-von-Linné-Schule" .
+
+<http://leipzig-data.de/Data/Schule/MSG>
+    ld:address "Leipzig, Salomonstraße 10" ;
+    ld:plz "04103" ;
+    ld:strasse "Salomonstraße" ;
+    a ld:Schule ;
+    rdfs:label "Musikalisch-Sportliches Gymnasium Leipzig der Rahn-Dittrich Gruppe" .
+
+<http://leipzig-data.de/Data/Schule/Mann-GS>
+    ld:address "Leipzig, Schwarzenbergweg 4" ;
+    ld:plz "04289" ;
+    ld:strasse "Schwarzenbergweg" ;
+    a ld:Schule ;
+    rdfs:label "Heinrich-Mann-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Martin-Schule>
+    ld:address "Leipzig, Neptunweg 31" ;
+    ld:plz "04205" ;
+    ld:strasse "Neptunweg" ;
+    a ld:Schule ;
+    rdfs:label "Martin-Schule - Schule für geistig Behinderte der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Mehring-GS>
+    ld:address "Leipzig, Gletschersteinstraße 9" ;
+    ld:plz "04299" ;
+    ld:strasse "Gletschersteinstraße" ;
+    a ld:Schule ;
+    rdfs:label "Franz-Mehring-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Miltitz-GS>
+    ld:address "Leipzig, Großmiltitzer Straße 4" ;
+    ld:plz "04205" ;
+    ld:strasse "Großmiltitzer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Schule Miltitz" .
+
+<http://leipzig-data.de/Data/Schule/Moelkau-Schule>
+    ld:address "Leipzig, Schulstraße 6" ;
+    ld:plz "04316" ;
+    ld:strasse "Schulstraße" ;
+    a ld:Schule ;
+    rdfs:label "Oberschule Mölkau" .
+
+<http://leipzig-data.de/Data/Schule/Montessori-Schulzentrum>
+    ld:address "Leipzig, Alte Salzstraße 61" ;
+    ld:plz "04209" ;
+    ld:strasse "Alte Salzstraße" ;
+    a ld:Schule ;
+    rdfs:label "Bischöfliches Maria-Montessori-Schulzentrum Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Mutzeck-Lernfoerderschule>
+    a ld:Schule ;
+    rdfs:label "Wolfgang-Mutzeck-Schule" .
+
+<http://leipzig-data.de/Data/Schule/NaSch>
+    ld:address "Leipzig, Gemeindeamtsstraße 8" ;
+    ld:plz "04177" ;
+    ld:strasse "Gemeindeamtsstraße" ;
+    a ld:Schule ;
+    rdfs:label "Nachbarschaftsschule" .
+
+<http://leipzig-data.de/Data/Schule/Neruda-GS>
+    ld:address "Leipzig, Tarostraße 6" ;
+    ld:plz "04103" ;
+    ld:strasse "Tarostraße" ;
+    a ld:Schule ;
+    rdfs:label "Pablo-Neruda-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Niko-Gym>
+    ld:address "Leipzig, Schönbachstraße 17" ;
+    ld:plz "04299" ;
+    ld:strasse "Schönbachstraße" ;
+    a ld:Schule ;
+    rdfs:label "Neues Nikolai-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/OS-Weisseplatz>
+    a ld:Schule ;
+    rdfs:label "Oberschule am Weißeplatz" .
+
+<http://leipzig-data.de/Data/Schule/Oeser-GS>
+    ld:address "Leipzig, Geibelstraße 74" ;
+    ld:plz "04129" ;
+    ld:strasse "Geibelstraße" ;
+    a ld:Schule ;
+    rdfs:label "Adam-Friedrich-Oeser-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Ostwald-Gym>
+    ld:address "Leipzig, Willi-Bredel-Straße 13" ;
+    ld:plz "04279" ;
+    ld:strasse "Willi-Bredel-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Wilhelm-Ostwald-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Paunsdorf-OS>
+    ld:address "Leipzig, Zum Wäldchen 4" ;
+    ld:plz "04329" ;
+    ld:strasse "Zum Wäldchen" ;
+    a ld:Schule ;
+    rdfs:label "Oberschule Paunsdorf" .
+
+<http://leipzig-data.de/Data/Schule/Pestalozzi-Lernfoerderschule>
+    ld:address "Leipzig, Hannoversche Straße 2" ;
+    ld:plz "04157" ;
+    ld:strasse "Hannoversche Straße" ;
+    a ld:Schule ;
+    rdfs:label "Johann-Heinrich-Pestalozzi-Schule - Schule zur Lernförderung der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Pestalozzi-OS>
+    ld:address "Leipzig, Pestalozzistraße 39" ;
+    ld:plz "04178" ;
+    ld:strasse "Pestalozzistraße" ;
+    a ld:Schule ;
+    rdfs:label "Heinrich-Pestalozzi-Oberschule" .
+
+<http://leipzig-data.de/Data/Schule/Peters-Gym>
+    ld:address "Leipzig, Bornaische Straße 104" ;
+    ld:plz "04277" ;
+    ld:strasse "Bornaische Straße" ;
+    a ld:Schule ;
+    rdfs:label "Lousie-Otto-Peters-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Petri-OS>
+    ld:address "Leipzig, Paul-Gruner-Straße 50" ;
+    ld:plz "04107" ;
+    ld:strasse "Paul-Gruner-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Petri-Oberschule" .
+
+<http://leipzig-data.de/Data/Schule/Portitz-Schule>
+    a ld:Schule ;
+    rdfs:label "Oberschule Portitz" .
+
+<http://leipzig-data.de/Data/Schule/Rabet-GS>
+    ld:address "Leipzig, Eisenbahnstraße 50" ;
+    ld:plz "04315" ;
+    ld:strasse "Eisenbahnstraße" ;
+    a ld:Schule ;
+    rdfs:label "Schule am Rabet" .
+
+<http://leipzig-data.de/Data/Schule/Rahn-Berufsschule>
+    ld:address "Leipzig, Kochstraße 28A" ;
+    ld:plz "04275" ;
+    ld:strasse "Kochstraße" ;
+    a ld:Schule ;
+    rdfs:label "Dr. P. Rahn & Partner Schulen in freier Trägerschaft" .
+
+<http://leipzig-data.de/Data/Schule/Rahn-Schule>
+    ld:address "Leipzig, Kochstraße 28A" ;
+    ld:plz "04275" ;
+    ld:strasse "Kochstraße" ;
+    a ld:Schule ;
+    rdfs:label "Rahn-Oberschule und -Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Reclam-Gym>
+    ld:address "Leipzig, Tarostraße 4" ;
+    ld:plz "04103" ;
+    ld:strasse "Tarostraße" ;
+    a ld:Schule ;
+    rdfs:label "Anton-Philipp-Reclam-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Regenbogen-GS>
+    ld:address "Leipzig, Raschwitzer Straße 15" ;
+    ld:plz "04279" ;
+    ld:strasse "Raschwitzer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Freie Grundschule \"Regenbogen\"" .
+
+<http://leipzig-data.de/Data/Schule/Ringelnatz-GS>
+    ld:address "Leipzig, Grünauer Allee 35" ;
+    ld:plz "04209" ;
+    ld:strasse "Grünauer Allee" ;
+    a ld:Schule ;
+    rdfs:label "Joachim-Ringelnatz-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Robert-Schumann-Gym>
+    ld:address "Leipzig, Demmeringstraße 84" ;
+    ld:plz "04177" ;
+    ld:strasse "Demmeringstraße" ;
+    a ld:Schule ;
+    rdfs:label "Robert-Schumann-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Robeson-Schule>
+    ld:address "Leipzig, Jungmannstraße 5" ;
+    ld:plz "04159" ;
+    ld:strasse "Jungmannstraße" ;
+    a ld:Schule ;
+    rdfs:label "Paul-Robeson-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Rueckmarsdorf-GS>
+    ld:address "Leipzig, An der Friedenseiche 4" ;
+    ld:plz "04178" ;
+    ld:strasse "An der Friedenseiche" ;
+    a ld:Schule ;
+    rdfs:label "Schule Rückmarsdorf" .
+
+<http://leipzig-data.de/Data/Schule/Ruth-Pfau-Schule>
+    a ld:Schule ;
+    rdfs:label "Ruth-Pfau-Schule - Berufliches Schulzentrum der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Sacke-Krankenhausschule>
+    ld:address "Leipzig, Morawitzstraße 2" ;
+    ld:plz "04289" ;
+    ld:strasse "Morawitzstraße" ;
+    a ld:Schule ;
+    rdfs:label "Dr.-Georg-Sacke-Schule - Klinik- und Krankenhausschule der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Schiller-Gym>
+    ld:address "Leipzig, Elsbethstraße 2" ;
+    ld:plz "04155" ;
+    ld:strasse "Elsbethstraße" ;
+    a ld:Schule ;
+    rdfs:label "Friedrich-Schiller-Gymnasium" .
+
+<http://leipzig-data.de/Data/Schule/Scholl-GS>
+    ld:address "Leipzig, Elsbethstraße 1" ;
+    ld:plz "04155" ;
+    ld:strasse "Elsbethstraße" ;
+    a ld:Schule ;
+    rdfs:label "Geschwister-Scholl-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Scholl-OS-Liebertwolkwitz>
+    ld:address "Leipzig, Am Angerteich 2" ;
+    ld:plz "04288" ;
+    ld:strasse "Am Angerteich" ;
+    a ld:Schule ;
+    rdfs:label "Geschwister-Scholl-Schule Liebertwolkwitz" .
+
+<http://leipzig-data.de/Data/Schule/Schubert-GS>
+    ld:address "Leipzig, Raschwitzer Straße 4" ;
+    ld:plz "04279" ;
+    ld:strasse "Raschwitzer Straße" ;
+    a ld:Schule ;
+    rdfs:label "Karl-Schubert-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Schule-Rosenweg>
+    ld:address "Leipzig, Rosenweg 59" ;
+    ld:plz "04209" ;
+    ld:strasse "Rosenweg" ;
+    a ld:Schule ;
+    rdfs:label "Schule Rosenweg - Schule für geistig Behinderte der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Schule-Thonberg>
+    ld:address "Leipzig, Riebeckstraße 50" ;
+    ld:plz "04317" ;
+    ld:strasse "Riebeckstraße" ;
+    a ld:Schule ;
+    rdfs:label "Schule Thonberg - Schule für geistig Behinderte der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Schumann-GS>
+    ld:address "Leipzig, Inselstraße 18" ;
+    ld:plz "04103" ;
+    ld:strasse "Inselstraße" ;
+    a ld:Schule ;
+    rdfs:label "Freie Grundschule \"Clara Schumann\" Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Schweitzer-Schule>
+    ld:address "Leipzig, An der Märchenwiese 3" ;
+    ld:plz "04277" ;
+    ld:strasse "An der Märchenwiese" ;
+    a ld:Schule ;
+    rdfs:label "Albert-Schweitzer-Schule - Schule für Körperbehinderte der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Seehausen-GS>
+    ld:address "Leipzig, Seehausener Allee 17" ;
+    ld:plz "04356" ;
+    ld:strasse "Seehausener Allee" ;
+    a ld:Schule ;
+    rdfs:label "Schule Seehausen" .
+
+<http://leipzig-data.de/Data/Schule/Sport-Gym>
+    ld:address "Leipzig, Marschnerstraße 30" ;
+    ld:plz "04109" ;
+    ld:strasse "Marschnerstraße" ;
+    a ld:Schule ;
+    rdfs:label "Landesgymnasium für Sport Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Sport-OS>
+    ld:address "Leipzig, Max-Planck-Straße 1" ;
+    ld:plz "04105" ;
+    ld:strasse "Max-Planck-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Sportoberschule Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Stahmeln-GS>
+    ld:address "Leipzig, Stahmelner Höhe 1" ;
+    ld:plz "04159" ;
+    ld:strasse "Stahmelner Höhe" ;
+    a ld:Schule ;
+    rdfs:label "Schule Stahmeln" .
+
+<http://leipzig-data.de/Data/Schule/Susanna-Eger-Schule>
+    ld:address "Leipzig, An der Querbreite 6" ;
+    ld:plz "04129" ;
+    ld:strasse "An der Querbreite" ;
+    a ld:Schule ;
+    rdfs:label "Susanna-Eger-Schule - Berufliches Schulzentrum der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/TUEV-OS>
+    ld:address "Leipzig, Paul-Gruner-Straße 59" ;
+    ld:plz "04107" ;
+    ld:strasse "Paul-Gruner-Straße" ;
+    a ld:Schule ;
+    rdfs:label "TÜV Oberschule Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Telemann-Gym>
+    a ld:Schule ;
+    rdfs:label "Gymnasium an der Telemannstraße" .
+
+<http://leipzig-data.de/Data/Schule/Theater-Fabrik-Sachsen>
+    a ld:Schule ;
+    rdfs:label "Theater-Fabrik-Sachsen GmbH" .
+
+<http://leipzig-data.de/Data/Schule/Thomas-Gym>
+    ld:address "Leipzig, Hillerstraße 7" ;
+    ld:plz "04109" ;
+    ld:strasse "Hillerstraße" ;
+    a ld:Schule ;
+    rdfs:label "Thomasschule zu Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/Universitaetsklinikum>
+    ld:address "Leipzig, Richterstraße 9" ;
+    ld:plz "04105" ;
+    ld:strasse "Richterstraße" ;
+    a ld:Schule ;
+    rdfs:label "Universitätsklinikum Leipzig AöR" .
+
+<http://leipzig-data.de/Data/Schule/Universum-Berufsbildungs-Akademie>
+    a ld:Schule ;
+    rdfs:label "UNIVERSUM - Private Berufsbildungs-Akademie" .
+
+<http://leipzig-data.de/Data/Schule/Vogel-Lernfoerderschule>
+    ld:address "Leipzig, Hans-Marchwitza-Straße 12" ;
+    ld:plz "04279" ;
+    ld:strasse "Hans-Marchwitza-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Förderschule \"Werner Vogel\"" .
+
+<http://leipzig-data.de/Data/Schule/WBS-Schule>
+    ld:address "Leipzig, Brühl 67" ;
+    ld:plz "04109" ;
+    ld:strasse "Brühl" ;
+    a ld:Schule ;
+    rdfs:label "WBS Training Schulen gGmbH" .
+
+<http://leipzig-data.de/Data/Schule/Wander-GS>
+    ld:address "Leipzig, Schulze-Delitzsch-Straße 23" ;
+    ld:plz "04315" ;
+    ld:strasse "Schulze-Delitzsch-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Wilhelm-Wander-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Wiedebach-OS>
+    ld:address "Leipzig, Arno-Nitzsche-Straße 7" ;
+    ld:plz "04277" ;
+    ld:strasse "Arno-Nitzsche-Straße" ;
+    a ld:Schule ;
+    rdfs:label "Wiedebach-Oberschule" .
+
+<http://leipzig-data.de/Data/Schule/Wiederitzsch-GS>
+    ld:address "Leipzig, Zur Schule 11" ;
+    ld:plz "04158" ;
+    ld:strasse "Zur Schule" ;
+    a ld:Schule ;
+    rdfs:label "Grund- und Oberschule Wiederitzsch" .
+
+<http://leipzig-data.de/Data/Schule/Zeigner-GS>
+    ld:address "Leipzig, Erich-Zeigner-Allee 24" ;
+    ld:plz "04229" ;
+    ld:strasse "Erich-Zeigner-Allee" ;
+    a ld:Schule ;
+    rdfs:label "Erich-Zeigner-Schule" .
+
+<http://leipzig-data.de/Data/Schule/Zinna-Lernfoerderschule>
+    a ld:Schule ;
+    rdfs:label "Ernst-Zinna-Schule - Schule zur Lernförderung der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Schule/ciT-Berufsschule>
+    ld:address "Leipzig, Lutherstraße 10" ;
+    ld:plz "04315" ;
+    ld:strasse "Lutherstraße" ;
+    a ld:Schule ;
+    rdfs:label "ciT gGmbH" .
+

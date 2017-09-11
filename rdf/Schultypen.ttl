@@ -6,7 +6,7 @@
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix jso: <http://jedeschule.de/ontology/ns#> .
 
-<http://jedeschule.de/Datenextrakt-SN/>
+<http://jedeschule.de/HGG-Datenextrakt/>
     a owl:Ontology ;
     rdfs:comment "Extrakt aus der csv-Quelle sachsen.csv" ;
     rdfs:label "Schultypen in Sachsen" .
