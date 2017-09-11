@@ -20,3 +20,7 @@ sparql clear graph <http://leipzig-data.de/Data/LeipzigerSchulen/> ;
 sparql create silent graph <http://leipzig-data.de/Data/LeipzigerSchulen/> ;
 DB.DBA.TTLP_MT (file_to_string_output('/home/graebe/git/LD/schulscraper-data/rdf/LeipzigerSchulen.ttl'),'http://leipzig-data.de/Data/LeipzigerSchulen/');
 
+sparql clear graph <http://leipzig-data.de/Data/SchulIds/> ; 
+sparql create silent graph <http://leipzig-data.de/Data/SchulIds/> ;
+DB.DBA.TTLP_MT (file_to_string_output('/home/graebe/git/LD/schulscraper-data/rdf/SchulIds.ttl'),'http://leipzig-data.de/Data/SchulIds/');
+

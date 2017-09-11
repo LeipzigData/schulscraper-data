@@ -3,6 +3,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
+<http://leipzig-data.de/Data/SchulIds/> a owl:Ontology ;
+   rdfs:label "Leipziger Schulen" ;
+   rdfs:comment "Extrakt aus leipzig-data.de" .
+
 <http://leipzig-data.de/Data/Schule/100-GS>
     ld:hasSchulId "SN-4412300-0" .
 
@@ -78,11 +82,25 @@
 <http://leipzig-data.de/Data/Schule/AM-Bach-GS>
     ld:hasSchulId "SN-4412284-0" .
 
-<http://leipzig-data.de/Data/Schule/AWO-Berufsschule>
-    ld:hasSchulId "SN-4450631-0", "SN-4451621-0", "SN-4452728-0", "SN-4452868-0" .
+<http://leipzig-data.de/Data/Schule/AWO-Berufsschule.FS.Sozialwesen>
+    rdfs:label "AWO Akademie Mitteldeutschland Fachschule für Sozialwesen" ; 
+    ld:hasSchulId "SN-4451621-0" .
+<http://leipzig-data.de/Data/Schule/AWO-Berufsschule.BFS.Pflegehilfe>
+    rdfs:label "AWO Akademie Mitteldeutschland Berufsfachschule für Pflegehilfe" ; 
+    ld:hasSchulId "SN-4452728-0" .
+<http://leipzig-data.de/Data/Schule/AWO-Berufsschule.BFS.Altenpflege>
+    rdfs:label "AWO Akademie Mitteldeutschland Berufsfachschule für Altenpflege" ; 
+    ld:hasSchulId "SN-4450631-0" .
+<http://leipzig-data.de/Data/Schule/AWO-Berufsschule.BFS.Sozialwesen>
+    rdfs:label "AWO Akademie Mitteldeutschland Berufsfachschule für Sozialwesen" ; 
+    ld:hasSchulId "SN-4452868-0" .
 
-<http://leipzig-data.de/Data/Schule/Adler-Schule>
-    ld:hasSchulId "SN-4411849-0", "SN-4431003-0" .
+<http://leipzig-data.de/Data/Schule/Adler-GS>
+    rdfs:label "Grundschule am Adler" ; 
+    ld:hasSchulId "SN-4411849-0" .
+<http://leipzig-data.de/Data/Schule/Adler-OS>
+    rdfs:label "Oberschule am Adler" ; 
+    ld:hasSchulId "SN-4431003-0" .
 
 <http://leipzig-data.de/Data/Schule/AkademiefuerKreativitaetspaedagogik>
     ld:hasSchulId "SN-4451761-0" .
@@ -96,11 +114,40 @@
 <http://leipzig-data.de/Data/Schule/Arnold-GS>
     ld:hasSchulId "SN-4410213-0" .
 
-<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft>
-    ld:hasSchulId "SN-4450904-0", "SN-4450912-0", "SN-4450920-0", "SN-4450938-0", "SN-4450953-0", "SN-4450984-0", "SN-4451784-0", "SN-4452033-0", "SN-4452223-0" .
-
-<http://leipzig-data.de/Data/Schule/BIP-Schule>
-    ld:hasSchulId "SN-4412565-0", "SN-4440574-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.ES.Kosmetik>
+    rdfs:label "Ergänzungsschule für Kosmetik der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4450953-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.Fachoberschule>
+    rdfs:label "Fachoberschule der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4452223-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.FS.Sozialwesen>
+    rdfs:label "Fachschule für Sozialwesen der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4452033-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.BFS.Sozialwesen>
+    rdfs:label "Berufsfachschule für Sozialwesen der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4451784-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.BFS.Diaetassitenten>
+    rdfs:label "Berufsfachschule für Diätassistenten der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4450912-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.BFS.MedizinischeDokumentation>
+    rdfs:label "Berufsfachschule für medizinische Dokumentation der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4450920-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.BFS.Altenpflege>
+    rdfs:label "Berufsfachschule für Altenpflege der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4450938-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.BFS.Ergotherapie>
+    rdfs:label "Berufsfachschule für Ergotherapie der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4450984-0" .
+<http://leipzig-data.de/Data/Schule/AugsburgerLehmbaugesellschaft.BFS.Physiotherapie>
+    rdfs:label "Berufsfachschule für Physiotherapie der Augsburger Lehmbaugesellschaft Leipzig" ; 
+    ld:hasSchulId "SN-4450904-0" .
+    
+<http://leipzig-data.de/Data/Schule/BIP-Schule.GS>
+    rdfs:label "BIP-Kreativitätsgrundschule Leipzig" ; 
+    ld:hasSchulId "SN-4412565-0" .
+<http://leipzig-data.de/Data/Schule/BIP-Schule.Gymnasium>
+    rdfs:label "BIP-Kreativitätsgymnasium Leipzig" ; 
+    ld:hasSchulId "SN-4440574-0" .
 
 <http://leipzig-data.de/Data/Schule/BSZ-Robert-Blum>
     ld:hasSchulId "SN-4450011-0", "SN-4450011-1" .
@@ -111,35 +158,85 @@
 <http://leipzig-data.de/Data/Schule/BSZ7>
     ld:hasSchulId "SN-4450128-0", "SN-4450128-1", "SN-4450128-2" .
 
-<http://leipzig-data.de/Data/Schule/BWM-Berufsschule>
-    ld:hasSchulId "SN-4450599-0", "SN-4452520-0", "SN-4452538-0", "SN-4452850-0" .
+<http://leipzig-data.de/Data/Schule/BWM-Berufsschule.FS.Sozialwesen>
+    rdfs:label "Fachschule Sozialwesen der BWM Medizinisch-Technisches Aus-und Weiterbildungszentrum GmbH" ; 
+    ld:hasSchulId "SN-4452850-0" .
+<http://leipzig-data.de/Data/Schule/BWM-Berufsschule.BFS.MTA>
+    rdfs:label "Berufsfachschule für medizinisch-technische Assistenten BWM Medizinisch-Technisches Aus-und Weiterbildungszentrum GmbH" ; 
+    ld:hasSchulId "SN-4450599-0" .
+<http://leipzig-data.de/Data/Schule/BWM-Berufsschule.BFS.Physiotherapie>
+    rdfs:label "Berufsfachschule für Physiotherapie BWM Medizinisch-Technisches Aus-und Weiterbildungszentrum GmbH" ; 
+    ld:hasSchulId "SN-4452520-0" .
+<http://leipzig-data.de/Data/Schule/BWM-Berufsschule.BFS.Rettungsassistenten>
+    rdfs:label "Berufsfachschule für Rettungsassistenten BWM Medizinisch-Technisches Aus-und Weiterbildungszentrum GmbH" ; 
+    ld:hasSchulId "SN-4452538-0" .
 
 <http://leipzig-data.de/Data/Schule/Bebel-GS>
     ld:hasSchulId "SN-4412185-0" .
 
-<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule>
-    ld:hasSchulId "SN-4450581-0", "SN-4451506-0", "SN-4451812-0", "SN-4451837-0", "SN-4451845-0", "SN-4451852-0" .
+<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule.FOS>
+    rdfs:label "Bernd-Blindow-Schulen Leipzig, Fachoberschule" ;
+    ld:hasSchulId "SN-4451852-0" .
+<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule.FS.Sozialwesen>
+    rdfs:label "Bernd-Blindow-Schulen Leipzig, Fachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4451506-0" .
+<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule.BFS.Logopaedie>
+    rdfs:label "Bernd-Blindow-Schulen Leipzig, Berufsfachschule für Logopädie" ;
+    ld:hasSchulId "SN-4451837-0" .
+<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule.BFS.Ergotherapie>
+    rdfs:label "Bernd-Blindow-Schulen Leipzig, Berufsfachschule für Ergotherapie" ;
+    ld:hasSchulId "SN-4451812-0" .
+<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule.BFS.PTA>
+    rdfs:label "Bernd-Blindow-Schulen Leipzig, Berufsfachschule für pharmazeutisch-technische Assistenten" ;
+    ld:hasSchulId "SN-4451845-0" .
+<http://leipzig-data.de/Data/Schule/Bernd-Blindow-Schule.BFS.Physiotherapie>
+    rdfs:label "Bernd-Blindow-Schulen Leipzig, Berufsfachschule für Physiotherapie" ;
+    ld:hasSchulId "SN-4450581-0" .
 
 <http://leipzig-data.de/Data/Schule/Berufsbildungswerk-Hoer-Sprachgeschaedigte>
     ld:hasSchulId "SN-4450029-0" .
 
-<http://leipzig-data.de/Data/Schule/Berufsschule-MKB-Verein>
-    ld:hasSchulId "SN-4451399-0", "SN-4452353-0", "SN-4452801-0", "SN-4452843-0" .
+<http://leipzig-data.de/Data/Schule/Berufsschule-MKB-Verein.FS.Sozialwesen>
+    rdfs:label "Fachschule für Sozialwesen, Verein für Motivation, Kommunikation und berufliche Bildung e.V." ;
+    ld:hasSchulId "SN-4452801-0" .
+<http://leipzig-data.de/Data/Schule/Berufsschule-MKB-Verein.BFS.Pflegeberufe>
+    rdfs:label "Berufsfachschule für Pflegeberufe, Verein für Motivation, Kommunikation und berufliche Bildung e.V." ;
+    ld:hasSchulId "SN-4452353-0" .
+<http://leipzig-data.de/Data/Schule/Berufsschule-MKB-Verein.BFS.Sozialwesen>
+    rdfs:label "Berufsfachschule für Sozialwesen, Verein für Motivation, Kommunikation und berufliche Bildung e.V." ;
+    ld:hasSchulId "SN-4452843-0" .
+<http://leipzig-data.de/Data/Schule/Berufsschule-MKB-Verein.BFS.Altenpflege>
+    rdfs:label "Berufsfachschule für Altenpflege, Verein für Motivation, Kommunikation und berufliche Bildung e.V." ;
+    ld:hasSchulId "SN-4451399-0" .
 
 <http://leipzig-data.de/Data/Schule/Berufsschule-St.ElisabethKrankenhaus>
     ld:hasSchulId "SN-4450391-0" .
 
 <http://leipzig-data.de/Data/Schule/Berufsschule-St.GeorgKlinikum>
-    ld:hasSchulId "SN-4411948-0", "SN-4420378-0", "SN-4450342-0" .
+    ld:hasSchulId "SN-4450342-0" .
 
 <http://leipzig-data.de/Data/Schule/Biedermann-Schule>
-    ld:hasSchulId "SN-4412037-0", "SN-4420329-0" .
+    ld:hasSchulId "SN-4420329-0" .
 
-<http://leipzig-data.de/Data/Schule/BildungsakademieDresden>
-    ld:hasSchulId "SN-4412177-0", "SN-4450615-0", "SN-4451522-0" .
+<http://leipzig-data.de/Data/Schule/BildungsakademieDresden.FS.Sozialwesen>
+    rdfs:label "Fachschule für Sozialwesen, Bildungsakademie Dresden" ;
+    ld:hasSchulId "SN-4451522-0" .
+<http://leipzig-data.de/Data/Schule/BildungsakademieDresden.BFS.Ergotherapie>
+    rdfs:label "Berufsfachschule für Ergotherapie, Bildungsakademie Dresden" ;
+    ld:hasSchulId "SN-4450615-0" .
 
-<http://leipzig-data.de/Data/Schule/BildungszentrumfuerGesundheitsberufe>
-    ld:hasSchulId "SN-4452363-0", "SN-4452595-0", "SN-4452736-0", "SN-4452777-0" .
+<http://leipzig-data.de/Data/Schule/BildungszentrumfuerGesundheitsberufe.FS.Sozialwesen>
+    rdfs:label "Fachschule Sozialwesen, Bildungszentrum für Gesundheitsberufe Leipzig GmbH" ;
+    ld:hasSchulId "SN-4452736-0" .
+<http://leipzig-data.de/Data/Schule/BildungszentrumfuerGesundheitsberufe.BFS.Altenpflege>
+    rdfs:label "Berufsfachschule für Altenpflege, Bildungszentrum für Gesundheitsberufe Leipzig GmbH" ;
+    ld:hasSchulId "SN-4452363-0" .
+<http://leipzig-data.de/Data/Schule/BildungszentrumfuerGesundheitsberufe.BFS.Pflegehilfe>
+    rdfs:label "Berufsfachschule für Pflegehilfe, Bildungszentrum für Gesundheitsberufe Leipzig GmbH" ;
+    ld:hasSchulId "SN-4452595-0" .
+<http://leipzig-data.de/Data/Schule/BildungszentrumfuerGesundheitsberufe.BS>
+    rdfs:label "Berufsschule, Bildungszentrum für Gesundheitsberufe Leipzig GmbH" ;
+    ld:hasSchulId "SN-4452777-0" .
 
 <http://leipzig-data.de/Data/Schule/BoehlitzEhrenberg-GS>
     ld:hasSchulId "SN-4410106-0" .
@@ -148,19 +245,43 @@
     ld:hasSchulId "SN-4440293-0" .
 
 <http://leipzig-data.de/Data/Schule/Busch-GS>
-    ld:hasSchulId "SN-4412151-0", "SN-4431151-0" .
+    ld:hasSchulId "SN-4412151-0" .
 
 <http://leipzig-data.de/Data/Schule/Connewitz-GS>
     ld:hasSchulId "SN-4412524-0" .
 
-<http://leipzig-data.de/Data/Schule/DPFA-Berufsschule>
-    ld:hasSchulId "SN-4412631-0", "SN-4412722-0", "SN-4412722-1", "SN-4412722-2", "SN-4450532-0", "SN-4451068-0", "SN-4451593-0", "SN-4452611-0" .
+<http://leipzig-data.de/Data/Schule/DPFA-Berufsschule.FOS.TWV>
+    rdfs:label "Fachoberschule für Technik, Wirtschaft und Verwaltung der DPFA Sachsen" ;
+    ld:hasSchulId "SN-4450532-0" .
+<http://leipzig-data.de/Data/Schule/DPFA-Berufsschule.FS.Technik>
+    rdfs:label "Fachschule für Technik der DPFA Sachsen" ;
+    ld:hasSchulId  "SN-4451593-0" .
+<http://leipzig-data.de/Data/Schule/DPFA-Berufsschule.BFS.Pflegehilfe>
+    rdfs:label "Berufsfachschule für Pflegehilfe der DPFA Sachsen" ;
+    ld:hasSchulId "SN-4452611-0" .
+<http://leipzig-data.de/Data/Schule/DPFA-Berufsschule.BFS.MedizinischeDokumentation>
+    rdfs:label "Berufsfachschule für medizinische Dokumentation der DPFA Sachsen" ;
+    ld:hasSchulId  "SN-4451068-0" .
 
-<http://leipzig-data.de/Data/Schule/Designschule>
-    ld:hasSchulId "SN-4452287-0", "SN-4452439-0" .
+<http://leipzig-data.de/Data/Schule/Designschule.GameDesign>
+    rdfs:label "Designschule Leipzig, Ergänzungsschule für Game Design" ;
+    ld:hasSchulId "SN-4452287-0" .
+<http://leipzig-data.de/Data/Schule/Designschule.Modedesign>
+    rdfs:label "Designschule Leipzig. Ergänzungsschule für Modedesign" ;
+    ld:hasSchulId "SN-4452439-0" .
 
-<http://leipzig-data.de/Data/Schule/DeutschesErwachsenenBildungswerk>
-    ld:hasSchulId "SN-4450672-0", "SN-4451407-0", "SN-4452298-0", "SN-4452306-0" .
+<http://leipzig-data.de/Data/Schule/DeutschesErwachsenenBildungswerk.FS.Gesundheit>
+    rdfs:label "Fachschule für Gesundheitsfachberufe, Deutsches Erwachsenen Bildungswerk" ;
+    ld:hasSchulId "SN-4452298-0" .
+<http://leipzig-data.de/Data/Schule/DeutschesErwachsenenBildungswerk.BFS.Sozialwesen>
+    rdfs:label "Berufsfachschule für Sozialwesen, Deutsches Erwachsenen Bildungswerk" ;
+    ld:hasSchulId "SN-4451407-0" .
+<http://leipzig-data.de/Data/Schule/DeutschesErwachsenenBildungswerk.BFS.Altenpflege>
+    rdfs:label "Berufsfachschule für Altenpflege, Deutsches Erwachsenen Bildungswerk" ;
+    ld:hasSchulId "SN-4450672-0" .
+<http://leipzig-data.de/Data/Schule/DeutschesErwachsenenBildungswerk.BFS.Pflegehilfe>
+    rdfs:label "Berufsfachschule für Pflegehilfe, Deutsches Erwachsenen Bildungswerk" ;
+    ld:hasSchulId "SN-4452306-0" .
 
 <http://leipzig-data.de/Data/Schule/Diakonissenkrankenhaus-Berufsschule>
     ld:hasSchulId "SN-4450409-0" .
@@ -174,11 +295,43 @@
 <http://leipzig-data.de/Data/Schule/ErnstPinkert-GS>
     ld:hasSchulId "SN-4412292-0" .
 
-<http://leipzig-data.de/Data/Schule/Euro-Schulen>
-    ld:hasSchulId "SN-4450433-0", "SN-4451035-0", "SN-4451175-0", "SN-4452454-0", "SN-4452751-0" .
+<http://leipzig-data.de/Data/Schule/Euro-Schulen.ES.Wirtschaft>
+    rdfs:label "Euro-Akademie Leipzig, Ergänzungsschule für Wirtschaft" ;
+    ld:hasSchulId "SN-4452454-0" .
+<http://leipzig-data.de/Data/Schule/Euro-Schulen.FS.Sozialwesen>
+    rdfs:label "Euro-Akademie Leipzig, Fachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4451175-0" .
+<http://leipzig-data.de/Data/Schule/Euro-Schulen.BFS.Sozialwesen>
+    rdfs:label "Euro-Akademie Leipzig, Berufsfachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4450433-0" .
+<http://leipzig-data.de/Data/Schule/Euro-Schulen.BFS.Wirtschaft>
+    rdfs:label "Euro-Akademie Leipzig, Berufsfachschule für Wirtschaft" ;
+    ld:hasSchulId "SN-4451035-0" .
+<http://leipzig-data.de/Data/Schule/Euro-Schulen.Berufsschule>
+    rdfs:label "Euro-Akademie Leipzig, Berufsschule" ;
+    ld:hasSchulId "SN-4452751-0" .
 
-<http://leipzig-data.de/Data/Schule/EuropaeischesBildungswerkBerufundGesellschaft>
-    ld:hasSchulId "SN-4451167-0", "SN-4451233-0", "SN-4451514-0", "SN-4451654-0", "SN-4451662-0", "SN-4451696-0", "SN-4451993-0", "SN-4452314-0", "SN-4452405-0" .
+<http://leipzig-data.de/Data/Schule/EBBG.BFS.Pflegehilfe>
+    rdfs:label "Berufsfachschule für Pflegehilfe, Europäisches Bildungswerk für Beruf und Gesellschaft e.V." ;
+    ld:hasSchulId "SN-4452405-0" .
+<http://leipzig-data.de/Data/Schule/EBBG.FS.Sozialwesen>
+    rdfs:label "Fachschule für Sozialwesen, Europäisches Bildungswerk für Beruf und Gesellschaft e.V." ;
+    ld:hasSchulId "SN-4451514-0", "SN-4451654-0" .
+<http://leipzig-data.de/Data/Schule/EBBG.BFS.Ergotherapie>
+    rdfs:label "Berufsfachschule für Ergotherapie, Europäisches Bildungswerk für Beruf und Gesellschaft e.V." ;
+    ld:hasSchulId "SN-4451233-0" .
+<http://leipzig-data.de/Data/Schule/EBBG.BFS.Sozialwesen>
+    rdfs:label "Berufsfachschule für Sozialwesen, Europäisches Bildungswerk für Beruf und Gesellschaft e.V." ;
+    ld:hasSchulId "SN-4451993-0".
+<http://leipzig-data.de/Data/Schule/EBBG.BFS.Pflegehilfe>
+    rdfs:label "Berufsfachschule für Pflegehilfe, Europäisches Bildungswerk für Beruf und Gesellschaft e.V." ;
+    ld:hasSchulId "SN-4452314-0" .
+<http://leipzig-data.de/Data/Schule/EBBG.BFS.Physiotherapie>
+    rdfs:label "Berufsfachschule für Physiotherapie, Europäisches Bildungswerk für Beruf und Gesellschaft e.V." ;
+    ld:hasSchulId "SN-4451696-0" .
+<http://leipzig-data.de/Data/Schule/EBBG.BFS.Altenpflege>
+    rdfs:label "Berufsfachschule für Altenpflege, Europäisches Bildungswerk für Beruf und Gesellschaft e.V." ;
+    ld:hasSchulId "SN-4451167-0" .
 
 <http://leipzig-data.de/Data/Schule/EvangelischesSchulzentrum>
     ld:hasSchulId "SN-4410056-0", "SN-4440558-0" .
@@ -187,19 +340,26 @@
     ld:hasSchulId "SN-4420436-0" .
 
 <http://leipzig-data.de/Data/Schule/Flossplatz-GS>
-    ld:hasSchulId "SN-4412177-0", "SN-4450615-0", "SN-4451522-0" .
+    ld:hasSchulId "SN-4412177-0" .
 
 <http://leipzig-data.de/Data/Schule/ForumThomanum-GS>
     ld:hasSchulId "SN-4412706-0" .
 
 <http://leipzig-data.de/Data/Schule/FreieSchule>
-    ld:hasSchulId "SN-4412540-0", "SN-4412649-0", "SN-4412649-1", "SN-4431441-0", "SN-4440590-0" .
+    ld:hasSchulId "SN-4412649-0", "SN-4412649-1" .
 
 <http://leipzig-data.de/Data/Schule/FreieWaldorfschule>
     ld:hasSchulId "SN-4410031-0", "SN-4410031-1", "SN-4410031-2" .
 
-<http://leipzig-data.de/Data/Schule/GBS-Berufsschule>
-    ld:hasSchulId "SN-4450292-0", "SN-4452462-0", "SN-4452488-0" .
+<http://leipzig-data.de/Data/Schule/GBS-Berufsschule.FS.Technik>
+    rdfs:label "GBS, Fachschule für Technik" ;
+    ld:hasSchulId "SN-4450292-0" .
+<http://leipzig-data.de/Data/Schule/GBS-Berufsschule.FS.Wirtschaft>
+    rdfs:label "GBS, Fachschule für Wirtschaft" ;
+    ld:hasSchulId "SN-4452462-0" .
+<http://leipzig-data.de/Data/Schule/GBS-Berufsschule.BFS.Hebammen>
+    rdfs:label "GBS, Berufsfachschule für Hebammen und Entbindungspfleger" ;
+    ld:hasSchulId "SN-4452488-0" .
 
 <http://leipzig-data.de/Data/Schule/GS-Marienbrunn>
     ld:hasSchulId "SN-4420311-0" .
@@ -219,8 +379,27 @@
 <http://leipzig-data.de/Data/Schule/Gutenberg-Schule>
     ld:hasSchulId "SN-4450110-0", "SN-4450110-1", "SN-4450110-2" .
 
-<http://leipzig-data.de/Data/Schule/Heimerer-Berufsschule>
-    ld:hasSchulId "SN-4451167-0", "SN-4451233-0", "SN-4451514-0", "SN-4451654-0", "SN-4451662-0", "SN-4451696-0", "SN-4451993-0", "SN-4452314-0", "SN-4452405-0" .
+<http://leipzig-data.de/Data/Schule/Heimerer.BFS.Pflegehilfe>
+    rdfs:label "Berufsbildungsinstitut Heimerer, Berufsfachschule für Pflegehilfe" ;
+    ld:hasSchulId "SN-4452405-0" .
+<http://leipzig-data.de/Data/Schule/Heimerer.FS.Sozialwesen>
+    rdfs:label "Berufsbildungsinstitut Heimerer, Fachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4451514-0", "SN-4451654-0" .
+<http://leipzig-data.de/Data/Schule/Heimerer.BFS.Ergotherapie>
+    rdfs:label "Berufsbildungsinstitut Heimerer, Berufsfachschule für Ergotherapie" ;
+    ld:hasSchulId "SN-4451233-0" .
+<http://leipzig-data.de/Data/Schule/Heimerer.BFS.Sozialwesen>
+    rdfs:label "Berufsbildungsinstitut Heimerer, Berufsfachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4451993-0" .
+<http://leipzig-data.de/Data/Schule/Heimerer.BFS.Pflegehilfe>
+    rdfs:label "Berufsbildungsinstitut Heimerer, Berufsfachschule für Pflegehilfe" ;
+    ld:hasSchulId "SN-4452314-0" .
+<http://leipzig-data.de/Data/Schule/Heimerer.BFS.Physiotherapie>
+    rdfs:label "Berufsbildungsinstitut Heimerer, Berufsfachschule für Physiotherapie" ;
+    ld:hasSchulId "SN-4451696-0" .
+<http://leipzig-data.de/Data/Schule/Heimerer.BFS.Altenpflege>
+    rdfs:label "Berufsbildungsinstitut Heimerer, Berufsfachschule für Altenpflege" ;
+    ld:hasSchulId "SN-4451662-0" .
 
 <http://leipzig-data.de/Data/Schule/Heisenberg-Gym>
     ld:hasSchulId "SN-4440301-0" .
@@ -238,7 +417,7 @@
     ld:hasSchulId "SN-4410353-0" .
 
 <http://leipzig-data.de/Data/Schule/Humana-Berufsschule>
-    ld:hasSchulId "SN-4450581-0", "SN-4451506-0", "SN-4451812-0", "SN-4451837-0", "SN-4451845-0", "SN-4451852-0" .
+    ld:hasSchulId "SN-4451506-0" .
 
 <http://leipzig-data.de/Data/Schule/Humboldt-Gym>
     ld:hasSchulId "SN-4440343-0" .
@@ -246,8 +425,15 @@
 <http://leipzig-data.de/Data/Schule/IB.Berufsschule>
     ld:hasSchulId "SN-4451324-0" .
 
-<http://leipzig-data.de/Data/Schule/Johanniter-Berufsschule>
-    ld:hasSchulId "SN-4450714-0", "SN-4451027-0", "SN-4451951-0" .
+<http://leipzig-data.de/Data/Schule/Johanniter-Berufsschule.BFS.Sozialwesen>
+    rdfs:label "Bildungsinstitut Mitteldeutschland der Johanniter-Akademie, Berufsfachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4451951-0" .
+<http://leipzig-data.de/Data/Schule/Johanniter-Berufsschule.BFS.Altenpflege>
+    rdfs:label "Bildungsinstitut Mitteldeutschland der Johanniter-Akademie, Berufsfachschule für Altenpflege" ;
+    ld:hasSchulId "SN-4451027-0" .
+<http://leipzig-data.de/Data/Schule/Johanniter-Berufsschule.FS.Sozialwesen>
+    rdfs:label "Bildungsinstitut Mitteldeutschland der Johanniter-Akademie, Fachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4450714-0".
 
 <http://leipzig-data.de/Data/Schule/Kant-Gym>
     ld:hasSchulId "SN-4440384-0" .
@@ -259,7 +445,7 @@
     ld:hasSchulId "SN-4440251-0" .
 
 <http://leipzig-data.de/Data/Schule/Klinger-Gym>
-    ld:hasSchulId "SN-4420386-0", "SN-4431268-0", "SN-4440335-0" .
+    ld:hasSchulId "SN-4440335-0" .
 
 <http://leipzig-data.de/Data/Schule/Koerner-GS>
     ld:hasSchulId "SN-4412409-0" .
@@ -280,13 +466,13 @@
     ld:hasSchulId "SN-4410023-0", "SN-4410023-1", "SN-4410023-2" .
 
 <http://leipzig-data.de/Data/Schule/Lene-Voigt-OS>
-    ld:hasSchulId "SN-4431409-0", "SN-4440442-0" .
+    ld:hasSchulId "SN-4431409-0" .
 
 <http://leipzig-data.de/Data/Schule/Lernfoerderschule-Engelsdorf>
     ld:hasSchulId "SN-4420089-0" .
 
 <http://leipzig-data.de/Data/Schule/Lernfoerderschule-Gruenau>
-    ld:hasSchulId "SN-4420386-0", "SN-4431268-0", "SN-4440335-0" .
+    ld:hasSchulId "SN-4420386-0" .
 
 <http://leipzig-data.de/Data/Schule/Lernfoerderschule-Schloss-Schoenefeld>
     ld:hasSchulId "SN-4420022-0" .
@@ -297,11 +483,14 @@
 <http://leipzig-data.de/Data/Schule/Liebertwolkwitz-GS>
     ld:hasSchulId "SN-4410403-0" .
 
+<http://leipzig-data.de/Data/Schule/Lindenhofschule>
+    ld:hasSchulId "SN-4420378-0" .
+
 <http://leipzig-data.de/Data/Schule/Lindgren-GS>
     ld:hasSchulId "SN-4412490-0" .
 
 <http://leipzig-data.de/Data/Schule/Linne-GS>
-    ld:hasSchulId "SN-4411948-0", "SN-4420378-0", "SN-4450342-0" .
+    ld:hasSchulId "SN-4411948-0" .
 
 <http://leipzig-data.de/Data/Schule/MSG>
     ld:hasSchulId "SN-4440604-0" .
@@ -315,23 +504,28 @@
 <http://leipzig-data.de/Data/Schule/Mehring-GS>
     ld:hasSchulId "SN-4412078-0" .
 
-<http://leipzig-data.de/Data/Schule/Moelkau-Schule>
-    ld:hasSchulId "SN-4410502-0", "SN-4430211-0" .
+<http://leipzig-data.de/Data/Schule/Moelkau-GS>
+    rdfs:label "Grundschule Mölkau" ;
+    ld:hasSchulId "SN-4410502-0" .
+
+<http://leipzig-data.de/Data/Schule/Moelkau-OS>
+    rdfs:label "Oberschule Mölkau" ;
+    ld:hasSchulId  "SN-4430211-0" .
 
 <http://leipzig-data.de/Data/Schule/Montessori-Schulzentrum>
-    ld:hasSchulId "SN-4412540-0", "SN-4412649-0", "SN-4412649-1", "SN-4431441-0", "SN-4440590-0" .
+    ld:hasSchulId "SN-4412540-0", "SN-4431441-0", "SN-4440590-0" .
 
 <http://leipzig-data.de/Data/Schule/NaSch>
     ld:hasSchulId "SN-4412052-0", "SN-4412052-1", "SN-4412052-2" .
 
 <http://leipzig-data.de/Data/Schule/Neruda-GS>
-    ld:hasSchulId "SN-4412466-0", "SN-4440400-0" .
+    ld:hasSchulId "SN-4412466-0" .
 
 <http://leipzig-data.de/Data/Schule/Niko-Gym>
     ld:hasSchulId "SN-4440392-0" .
 
 <http://leipzig-data.de/Data/Schule/Ostwald-Gym>
-    ld:hasSchulId "SN-4431409-0", "SN-4440442-0" .
+    ld:hasSchulId "SN-4440442-0" .
 
 <http://leipzig-data.de/Data/Schule/Pestalozzi-Lernfoerderschule>
     ld:hasSchulId "SN-4420360-0" .
@@ -349,16 +543,16 @@
     ld:hasSchulId "SN-4412235-0" .
 
 <http://leipzig-data.de/Data/Schule/Rahn-Berufsschule>
-    ld:hasSchulId "SN-4431456-0", "SN-4451365-0" .
+    ld:hasSchulId "SN-4451365-0" .
 
 <http://leipzig-data.de/Data/Schule/Rahn-Schule>
-    ld:hasSchulId "SN-4431456-0", "SN-4451365-0" .
+    ld:hasSchulId "SN-4431456-0" .
 
 <http://leipzig-data.de/Data/Schule/Reclam-Gym>
-    ld:hasSchulId "SN-4412466-0", "SN-4440400-0" .
+    ld:hasSchulId "SN-4440400-0" .
 
 <http://leipzig-data.de/Data/Schule/Regenbogen-GS>
-    ld:hasSchulId "SN-4412631-0", "SN-4412722-0", "SN-4412722-1", "SN-4412722-2", "SN-4450532-0", "SN-4451068-0", "SN-4451593-0", "SN-4452611-0" .
+    ld:hasSchulId "SN-4412631-0" .
 
 <http://leipzig-data.de/Data/Schule/Ringelnatz-GS>
     ld:hasSchulId "SN-4412128-0" .
@@ -366,29 +560,33 @@
 <http://leipzig-data.de/Data/Schule/Robert-Schumann-Gym>
     ld:hasSchulId "SN-4440244-0" .
 
-<http://leipzig-data.de/Data/Schule/Robeson-Schule>
-    ld:hasSchulId "SN-4412219-0", "SN-4431193-0" .
+<http://leipzig-data.de/Data/Schule/Robeson-GS>
+    rdfs:label "Paul-Robeson-Grundschule" ;
+    ld:hasSchulId "SN-4412219-0" .
+<http://leipzig-data.de/Data/Schule/Robeson-OS>
+    rdfs:label "Paul-Robeson-Oberschule" ;
+    ld:hasSchulId "SN-4431193-0" .
 
 <http://leipzig-data.de/Data/Schule/Schiller-Gym>
-    ld:hasSchulId "SN-4411989-0", "SN-4440269-0" .
+    ld:hasSchulId "SN-4440269-0" .
 
 <http://leipzig-data.de/Data/Schule/Scholl-GS>
-    ld:hasSchulId "SN-4411989-0", "SN-4440269-0" .
+    ld:hasSchulId "SN-4411989-0" .
 
 <http://leipzig-data.de/Data/Schule/Scholl-OS-Liebertwolkwitz>
     ld:hasSchulId "SN-4410403-0" .
 
 <http://leipzig-data.de/Data/Schule/Schubert-GS>
-    ld:hasSchulId "SN-4412631-0", "SN-4412722-0", "SN-4412722-1", "SN-4412722-2", "SN-4450532-0", "SN-4451068-0", "SN-4451593-0", "SN-4452611-0" .
+    ld:hasSchulId "SN-4412722-0", "SN-4412722-1", "SN-4412722-2" .
 
 <http://leipzig-data.de/Data/Schule/Schule-Rosenweg>
     ld:hasSchulId "SN-4420428-0" .
 
 <http://leipzig-data.de/Data/Schule/Schule-Thonberg>
-    ld:hasSchulId "SN-4412342-0", "SN-4420410-0" .
+    ld:hasSchulId "SN-4420410-0" .
 
 <http://leipzig-data.de/Data/Schule/Schumann-GS>
-    ld:hasSchulId "SN-4412557-0", "SN-4450276-0" .
+    ld:hasSchulId "SN-4412557-0" .
 
 <http://leipzig-data.de/Data/Schule/Schweitzer-Schule>
     ld:hasSchulId "SN-4420311-0" .
@@ -406,22 +604,45 @@
     ld:hasSchulId "SN-4410668-0" .
 
 <http://leipzig-data.de/Data/Schule/Susanna-Eger-Schule>
-    ld:hasSchulId "SN-4450128-0", "SN-4450128-1", "SN-4450128-2", "SN-4450193-0", "SN-4450193-1", "SN-4450193-2" .
+    ld:hasSchulId "SN-4450193-0", "SN-4450193-1", "SN-4450193-2" .
 
 <http://leipzig-data.de/Data/Schule/TUEV-OS>
     ld:hasSchulId "SN-4431284-0" .
 
 <http://leipzig-data.de/Data/Schule/Thomas-Gym>
-    ld:hasSchulId "SN-4440368-0", "SN-4490568-0" .
+    ld:hasSchulId "SN-4440368-0" .
 
-<http://leipzig-data.de/Data/Schule/Universitaetsklinikum>
-    ld:hasSchulId "SN-4451381-0", "SN-4452470-0", "SN-4452496-0", "SN-4452504-0", "SN-4452512-0", "SN-4452702-0" .
+<http://leipzig-data.de/Data/Schule/UKL.ES.OTA>
+    rdfs:label "Universitätsklinikum Leipzig AöR, Ergänzungsschule für operationstechnische Assistenten" ;
+    ld:hasSchulId "SN-4452702-0" .
+<http://leipzig-data.de/Data/Schule/UKL.BFS.Krankenpflege>
+    rdfs:label "Universitätsklinikum Leipzig AöR, Berufsfachschule für Krankenpflege" ;
+    ld:hasSchulId "SN-4452470-0" .
+<http://leipzig-data.de/Data/Schule/UKL.BFS.Orthoptik>
+    rdfs:label "Universitätsklinikum Leipzig AöR, Berufsfachschule für Orthoptik" ;
+    ld:hasSchulId "SN-4452504-0" .
+<http://leipzig-data.de/Data/Schule/UKL.BFS.Physiotherapie>
+    rdfs:label "Universitätsklinikum Leipzig AöR, Berufsfachschule für Physiotherapie" ;
+    ld:hasSchulId "SN-4452512-0" .
+<http://leipzig-data.de/Data/Schule/UKL.BFS.MTA>
+    rdfs:label "Universitätsklinikum Leipzig AöR, Berufsfachschule für medizinisch-technische Assistenten" ;
+    ld:hasSchulId "SN-4452496-0" .
+<http://leipzig-data.de/Data/Schule/UKL.BFS.Diaetassistenten>
+    rdfs:label "Universitätsklinikum Leipzig AöR, Berufsfachschule für Diätassistenten" ;
+    ld:hasSchulId "SN-4451381-0" .
 
 <http://leipzig-data.de/Data/Schule/Vogel-Lernfoerderschule>
     ld:hasSchulId "SN-4420014-0" .
 
-<http://leipzig-data.de/Data/Schule/WBS-Schule>
-    ld:hasSchulId "SN-4451969-0", "SN-4452744-0", "SN-4452819-0" .
+<http://leipzig-data.de/Data/Schule/WBS-Schule.FS.Sozialwesen>
+    rdfs:label "WBS Training Schulen gGmbH, Fachschule Sozialwesen" ;
+    ld:hasSchulId "SN-4452744-0" .
+<http://leipzig-data.de/Data/Schule/WBS-Schule.BFS.Sozialwesen>
+    rdfs:label "WBS Training Schulen gGmbH, Berufsfachschule für Sozialwesen" ;
+    ld:hasSchulId "SN-4452819-0" .
+<http://leipzig-data.de/Data/Schule/WBS-Schule.BFS.Altenpflege>
+    rdfs:label "WBS Training Schulen gGmbH, Berufsfachschule für Altenpflege" ;
+    ld:hasSchulId "SN-4451969-0" .
 
 <http://leipzig-data.de/Data/Schule/Wander-GS>
     ld:hasSchulId "SN-4412425-0" .

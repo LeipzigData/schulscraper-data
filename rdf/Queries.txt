@@ -80,4 +80,18 @@ where
 filter ((?p=?p1) and regex(?a1, ?s))
 }
 
+------------------------------------
+Abgleich der SchulIds
 
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX jso: <http://jedeschule.de/ontology/ns#>
+select distinct ?l ?l1 ?u ?u1 
+from <http://leipzig-data.de/Data/LeipzigerSchulen/>
+from <http://leipzig-data.de/Data/SchulIds/>
+from <http://jedeschule.de/HGG-Datenextrakt/>
+where
+{
+  ?u a ld:Schule ; rdfs:label ?l; ld:hasSchulId ?id  .
+  ?u1 a jso:Bildungseinrichtung ; jso:id ?id ; rdfs:label ?l1 .
+}
+order by ?u
