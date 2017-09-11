@@ -6,8 +6,8 @@
 <http://leipzig-data.de/Data/Schule/100-GS>
     ld:hasSchulId "SN-4412300-0" .
 
-<http://leipzig-data.de/Data/Schule/125-OS>
-    ld:hasSchulId "SN-4412151-0", "SN-4431151-0" .
+<http://leipzig-data.de/Data/Schule/125-OS> 
+    ld:hasSchulId "SN-4431151-0" .
 
 <http://leipzig-data.de/Data/Schule/157-GS>
     ld:hasSchulId "SN-4412136-0" .
@@ -43,7 +43,7 @@
     ld:hasSchulId "SN-4412441-0" .
 
 <http://leipzig-data.de/Data/Schule/66-GS>
-    ld:hasSchulId "SN-4412367-0", "SN-4450011-0", "SN-4450011-1" .
+    ld:hasSchulId "SN-4412367-0" .
 
 <http://leipzig-data.de/Data/Schule/68-OS>
     ld:hasSchulId "SN-4431052-0" .
@@ -52,25 +52,25 @@
     ld:hasSchulId "SN-4412011-0" .
 
 <http://leipzig-data.de/Data/Schule/77-GS>
-    ld:hasSchulId "SN-4412342-0", "SN-4420410-0" .
+    ld:hasSchulId "SN-4412342-0" .
 
 <http://leipzig-data.de/Data/Schule/8-GS>
-    ld:hasSchulId "SN-4412516-0", "SN-4420352-0" .
+    ld:hasSchulId "SN-4412516-0" .
 
 <http://leipzig-data.de/Data/Schule/84-OS>
-    ld:hasSchulId "SN-4412474-0", "SN-4431367-0" .
+    ld:hasSchulId "SN-4431367-0" .
 
 <http://leipzig-data.de/Data/Schule/85-GS>
-    ld:hasSchulId "SN-4412474-0", "SN-4431367-0" .
+    ld:hasSchulId "SN-4412474-0" .
 
 <http://leipzig-data.de/Data/Schule/90-GS>
-    ld:hasSchulId "SN-4412037-0", "SN-4420329-0" .
+    ld:hasSchulId "SN-4412037-0" .
 
 <http://leipzig-data.de/Data/Schule/91-GS>
     ld:hasSchulId "SN-4412482-0" .
 
 <http://leipzig-data.de/Data/Schule/94-OS>
-    ld:hasSchulId "SN-4420386-0", "SN-4431268-0", "SN-4440335-0" .
+    ld:hasSchulId "SN-4420386-0" .
 
 <http://leipzig-data.de/Data/Schule/AHF-GS>
     ld:hasSchulId "SN-4412680-0" .
@@ -103,13 +103,13 @@
     ld:hasSchulId "SN-4412565-0", "SN-4440574-0" .
 
 <http://leipzig-data.de/Data/Schule/BSZ-Robert-Blum>
-    ld:hasSchulId "SN-4412367-0", "SN-4450011-0", "SN-4450011-1" .
+    ld:hasSchulId "SN-4450011-0", "SN-4450011-1" .
 
 <http://leipzig-data.de/Data/Schule/BSZ1>
     ld:hasSchulId "SN-4450151-0", "SN-4450151-1", "SN-4450151-2" .
 
 <http://leipzig-data.de/Data/Schule/BSZ7>
-    ld:hasSchulId "SN-4450128-0", "SN-4450128-1", "SN-4450128-2", "SN-4450193-0", "SN-4450193-1", "SN-4450193-2" .
+    ld:hasSchulId "SN-4450128-0", "SN-4450128-1", "SN-4450128-2" .
 
 <http://leipzig-data.de/Data/Schule/BWM-Berufsschule>
     ld:hasSchulId "SN-4450599-0", "SN-4452520-0", "SN-4452538-0", "SN-4452850-0" .
