@@ -95,3 +95,11 @@ where
   ?u1 a jso:Bildungseinrichtung ; jso:id ?id ; rdfs:label ?l1 .
 }
 order by ?u
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?u ?i
+from <http://leipzig-data.de/Data/SchulIds/>
+where { ?u ld:hasSchulId ?i .  }
+order by ?i
+
+Humana-Berufsschule ist dasselbe wie Blindow-Schule
