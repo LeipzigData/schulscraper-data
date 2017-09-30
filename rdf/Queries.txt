@@ -1,4 +1,15 @@
 
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?u ?l ?a ?i
+from <http://leipzig-data.de/Data/Schulen/>
+where {
+?u a ld:Grundschule; rdfs:label ?l; ld:hasAddress ?a .
+optional { ?u ld:hasSchulId ?i . }
+}
+
+
+---------------------------------------------------------
+
 PREFIX jso: <http://jedeschule.de/ontology/ns#>
 select ?u ?l ?a
 from <http://jedeschule.de/HGG-Datenextrakt/>
@@ -15,7 +26,7 @@ where {
 filter regex(?u, "SN-44")
 }
 
-PREFIX jso: <http://jedeschule.de/ontology/ns#>
+PREFIX jso: <http://jedeschule.de/ontology/ns#>	
 select distinct ?cat
 from <http://jedeschule.de/HGG-Datenextrakt/>
 where {
